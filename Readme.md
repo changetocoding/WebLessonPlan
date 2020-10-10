@@ -3,6 +3,8 @@
 # General teacher instruction:
 - Github - one repo for all course content
 - Markdown training
+- Always review homework before the lesson. 
+
 
 # Other
 - Searching for data online
