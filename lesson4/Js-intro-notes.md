@@ -151,7 +151,3 @@ for(var j = 0; j <10; i++){
 console.log(j); // 10
 
 ```
-
-# Homework
-https://classroom.udacity.com/courses/ud803
-Do this Udacity course. Very basic... Designed for first time programmers. So can skip as many sections as you needs.
