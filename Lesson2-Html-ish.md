@@ -2,7 +2,8 @@
 
 # Lesson objectives
 - Tags
-- Bootstrap
+- Bootstrap 
+- Bootstrap grid system
 
 
 # Lesson time to deliever:
