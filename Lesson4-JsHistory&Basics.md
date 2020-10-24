@@ -31,4 +31,4 @@ Image on history of JS
 - Can make into interactive session
 
 # Homework
-- Create a video on the history of Javascript?
+- Create a video on the history of Javascript? Share on social media to increase our following
