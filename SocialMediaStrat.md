@@ -1,0 +1,2 @@
+- Students create a video of history of JS. Share online
+- Course material, short youtube videos of it
