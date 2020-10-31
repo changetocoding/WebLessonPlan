@@ -11,7 +11,7 @@ Four (4) lessons
 
 
 # Lesson time to deliever:
-3 lessons
+Four (4) lessons
 
 # Teacher instruction 
 Create a lesson plan from the course materials below and around basic javascript information
