@@ -9,16 +9,16 @@
 # Lesson time to deliever:
 Unknown...
 
+# Teacher instruction 
+
 
 # Course materials
+Additional course materials that can be used
 - Material 1
-and or lesson info
 
 
-# Teacher instruction & Recommendations
-- Explain ...
-- Be aware of ...
-- You can make it more interactive by ...
+# Recommendations
+- Additional notes
 
 
 # Homework
