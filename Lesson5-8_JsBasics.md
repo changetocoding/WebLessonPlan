@@ -19,11 +19,11 @@ Create a lesson plan from the course materials below and around basic javascript
 Cover opening the browser debugger by pressing F12. Chrome is recommended browser as it is the easiest for debugging.
 
 Then execute the js code in the browser console so students get used to it. But also switch to html file + js file so don't forget that.
-Go through basics (see below: Arrays, objects, selection, for loops) and explain difference between let and var, and == vs ===
+Go through basics (see below: Arrays, objects, selection, for loops) and explain difference between let and var (prefer let), and == vs ===  (prefer ===)
 Then cover functions in javascript
 
-Cover the help documentation:
-Stackoverflow
+Cover the help documentation:  
+Stackoverflow  
 I use this for JS reference https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 
 Also cover code pen see below:
