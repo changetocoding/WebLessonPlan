@@ -207,5 +207,5 @@ https://codepen.io/arkev/pen/pDdoL?editors=0010
 https://www.studytonight.com/post/snake-game-in-html-and-javascript  
 https://www.codeexplained.org/2018/08/create-snake-game-using-javascript.html  
 
-I want you to create a snake game in visual studio. Those guides can help you out. If you can add some additional cool features (so I know you didn't just copy and paste!!! :D)
+I want you to create a snake game in codepen. Those guides can help you out. If you can add some additional cool features (so I know you didn't just copy and paste!!! :D)
 
