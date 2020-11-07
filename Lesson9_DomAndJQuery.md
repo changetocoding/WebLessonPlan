@@ -42,6 +42,25 @@ Also mention if move script to bottom without document ready will work. Test the
 // });
 ```
 
+The three ways of doing document ready:
+```js
+// Jquery way 1
+$(document).ready(function () {
+  // ...
+});
+
+// Jquery way 2 (shorter)
+$(function () {
+    // ...
+});
+
+// Js way (recommended)
+document.addEventListener("DOMContentLoaded", function(){
+  // ...
+});
+
+```
+
 
 Show fetching text from input and displaying it in a label (same html file as above)
 ```js
