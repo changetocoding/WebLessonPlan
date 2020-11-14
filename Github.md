@@ -14,3 +14,7 @@ Then update file again/add a new file
 Repeat same in git hub  
 
 Then repeat in command line  
+
+
+# HW
+Get them to do it locally
