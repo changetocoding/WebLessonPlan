@@ -9,6 +9,7 @@ https://github.com/bmorelli25/Become-A-Full-Stack-Web-Developer/#learn-javascrip
 https://codeburst.io/25-html-css-tutorials-6a864f387185  
 https://github.com/ryanmcdermott/clean-code-javascript  
 https://github.com/kamranahmedse/developer-roadmap  
+https://teachertraining.codeyourfuture.io/ - With permission from Richard Ng
 
 # General teacher instruction:
 - Github - one repo for all course content
