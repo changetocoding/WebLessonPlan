@@ -13,7 +13,7 @@ Unknown...
 
 
 # Course materials
-Additional course materials that can be used
+Additional course materials that teachers should review and can be used
 - Material 1
 
 
