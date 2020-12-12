@@ -1,5 +1,10 @@
 # Web lessons
 
+# Resources
+https://github.com/freeCodeCamp/CurriculumExpansion  
+https://javascript.info/    
+
+
 # General teacher instruction:
 - Github - one repo for all course content
 - Markdown training
