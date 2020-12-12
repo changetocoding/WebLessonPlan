@@ -21,6 +21,7 @@ Teachers should also not be afraid to say they don't no something: Can look it u
 
 ### 3x repetition:
 https://www.reddit.com/r/learnprogramming/comments/5pyx5t/a_beginners_trick_i_learned_way_too_late_in_the/
+
 1st iteration is to make sure you understand what the hell's going on and can repeat it, do you understand the functions, the loops, the getters, setters and constructs? You won't understand because you'll need to keep referring to your last attempt, hence doing it two more times.
 
 2nd iteration is to do the same project again but this time without referring to old code at all. It's not about memorizing. It's about understanding what you want to do next and what tool you need to slap in your code to get there and knowing how to do it...well, a little memorizing comes in handy but at a certain point you're no longer memorizing and you're more just 'knowing it'. Can you clean up your code a bit? Can you DRY it out some?
