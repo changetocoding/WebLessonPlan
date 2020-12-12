@@ -34,5 +34,6 @@ Additional course materials that teachers should review and can be used
 
 
 # Homework
-- The homework
+- Get them to create a Js project. Debug through it. 
+- OR Maybe make a project and find bugs in that project
 
