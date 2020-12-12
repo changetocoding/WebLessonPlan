@@ -1,16 +1,22 @@
 # Prior Homework assessment
 
 # Lesson
+## Importance of source control
+Explain benefits of source control
+- Backups
+- Allows team to collaborate together
+- 
+
 ## Github
 Surprisingly hard to teach.
 Think should split so step by step walk through steps of how to create a repositiory on github  
 Clone that repository locally  
 Add a file to it  
-commit set up stream then push to it  
+Commit set up stream then push to it  
 
 Then update file in vs code  
-stage the file commit  
-Push it  
+Stage the file commit  
+Push it
 
 Then update file again/add a new file  
 Repeat same in git hub  
@@ -26,7 +32,8 @@ Important points:
 
 # Lesson objectives
 - Understand importance of source control
-- Commit code to source control
+- Commit code to source control using command line
+- Commit code to source control using VS Code
 - Deploy website online
 
 
