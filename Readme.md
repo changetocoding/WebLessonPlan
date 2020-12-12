@@ -45,3 +45,21 @@ let, var, const
 
 
 # Server interactions...
+
+
+
+# Course Plan
+Lessons 1-10 Introduction into JS, CSS and Html
+- Html basics
+- JS basics
+- Bootstrap
+- CSS basics
+- JQuery
+Projects: Snake, First site (Lightman Jacob)
+
+Lessons 11-20 - Advanced JS and environments
+- Debugging in Chrome (https://javascript.info/debugging-chrome)
+- Arrow functions/Function Expressions  (https://javascript.info/function-expressions, https://javascript.info/function-expressions)
+- The big website project: Build a business website
+- Talking with servers
+- 
