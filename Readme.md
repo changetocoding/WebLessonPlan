@@ -88,7 +88,7 @@ Lessons 11-20 - Advanced JS and environments
 
 Lessons 21-30 -
 - Clean code - https://github.com/ryanmcdermott/clean-code-javascript. Get students to read then go through thier code and find examples where missed. From now on will be using this as a guide and to review and mark code.
-- Unit testing
+- Unit testing - https://designmodo.com/test-javascript-unit/
 - Group project
 - Projects
 
