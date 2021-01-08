@@ -49,7 +49,8 @@ More content depending on how we doing for timing
 
 # Day 6: 
 Hong/me/Emmanuel/Claudius/Jacob. 10am (Nigeria)/9am (UK) start. 10am (UK) for volunteers  
-Pair up students. 10.30-3.30pm to work together on one of their snake websites to get it amazing looking using what learnt so far.  
-3.30-4pm presentation. Each team 2 minutes. Closing speech and Announce winner: Edward Mark  
-Small Prize for winning team. TBC  
+- Pair up students.  
+- 10.30-3.30pm to work together on one of their snake websites to get it amazing looking using what learnt so far.  
+- 3.30-4pm presentation. Each team 2 minutes. Closing speech and Announce winner: Edward Mark  
+- Small Prize for winning team. TBC  
 
