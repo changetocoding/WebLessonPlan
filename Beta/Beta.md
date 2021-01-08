@@ -5,18 +5,18 @@ Goal is to get first website on the web.
 The students at the end of the course
 
 Should have:
-[ ] Created a Github profile & commited code
-[ ] Created a live website using Vercel
-[ ] Created a fully functional online game - The Snake game
+- [ ] Created a Github profile & commited code
+- [ ] Created a live website using Vercel
+- [ ] Created a fully functional online game - The Snake game
 
 Should be able to:
-[ ] Use Visual Studio Code
-[ ] Be able to create a website with multiple pages: (using redirect & getting params from url)
-[ ] Be able to create a form using Bootstrap
-[ ] Know basic JS
-[ ] Know JS apis for button click, selecting elements
-[ ] ? Jquery (might be too much)
-[ ] Find help on stackoverflow
+- [ ] Use Visual Studio Code
+- [ ] Be able to create a website with multiple pages: (using redirect & getting params from url)
+- [ ] Be able to create a form using Bootstrap
+- [ ] Know basic JS
+- [ ] Know JS apis for button click, selecting elements
+- [ ] ? Jquery (might be too much)
+- [ ] Find help on stackoverflow
 
 # Circulum & Timetable
 Lesson structure mix of 
