@@ -35,7 +35,7 @@ Rest of day: Basics: html, css
 Incorporate video tutorials online too? (Find youtube tutorial and see if can download offline)
 
 # Day 3: Javascript
-JavaScript - intro.to js video watch.
+JavaScript - intro.to js video watch. [JACOB]  
 Then Js udacity course (see if can download offline)
 
 More JS. Get to commit to git hub
