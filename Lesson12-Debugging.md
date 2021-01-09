@@ -23,9 +23,10 @@ Inpect Html elements
 Breakpoints (on JS only. Don't demo on Css or html) 
 - Resume, continue on breakpoints
 - Step over
+- Step in and out of the 
 - Execute code/call a function using console when on a breakpoint
 - View variables in local window. And change variable using the console
-
+- 
 
 Debugger command
 
