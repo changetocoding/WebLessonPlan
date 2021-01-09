@@ -36,6 +36,11 @@ Drill home box model - margin, padding, pixels
 ## Day 2 (Fri): Bootstrap
 Incorporate video tutorials online too? (Find youtube tutorial and see if can download offline)
 
+- Layout/resize
+- Buttons
+- Forms
+- Nav bar
+
 ## Day 3 (Sat): Javascript
 JavaScript - intro.to js video watch. [JACOB]  
 Then Js udacity course (see if can download offline)  
