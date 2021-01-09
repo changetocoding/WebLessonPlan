@@ -31,6 +31,8 @@ Lesson structure mix of
 BREAK  
 Rest of day: Basics: html, css  
 
+Drill home box model - margin, padding, pixels
+
 ## Day 2 (Fri): Bootstrap
 Incorporate video tutorials online too? (Find youtube tutorial and see if can download offline)
 
