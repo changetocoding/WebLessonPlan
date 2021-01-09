@@ -15,7 +15,7 @@ Should be able to:
 - [ ] Be able to create a form using Bootstrap
 - [ ] Know basic JS
 - [ ] Know JS apis for button click, selecting elements
-- [ ] ? Jquery (might be too much)
+- [ ] ? Jquery (might be too much) - Leave out
 - [ ] Find help on stackoverflow
 
 # Circulum & Timetable
