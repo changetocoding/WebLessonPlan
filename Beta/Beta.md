@@ -36,7 +36,9 @@ Drill home box model - margin, padding, pixels
 ## Day 2 (Fri): Bootstrap
 Incorporate video tutorials online too? (Find youtube tutorial and see if can download offline)
 
-- Layout/resize
+- Layout
+- Col-md/sm/lg
+- Resize image/content with col-md resize
 - Buttons
 - Forms
 - Nav bar
