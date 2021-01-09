@@ -54,8 +54,13 @@ Morn: See if I can find a youtube vid too: But will be just leave them to do tas
 Afternoon: Get to commit to git hub.
 
 ## Day 5 (Fri): Vercel deployment
-Get to lookup how to redirect page (10 min excerise) & get url &params  on stackoverflow.  
-More content depending on how we doing for timing  
+Self exs:
+- Get to lookup how to redirect page (10 min excerise) & get url &params  on stackoverflow.  
+- Vercel
+
+Other:
+- Create website with 2 pages - login then a form
+- More content depending on how we doing for timing  
 
 ## Day 6 (Sat): Final Challenge
 Hong/me/Emmanuel/Claudius/Jacob. 10am (Nigeria)/9am (UK) start. 10am (UK) for volunteers  
