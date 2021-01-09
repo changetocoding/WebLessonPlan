@@ -14,6 +14,23 @@ Unknown...
 
 # Teacher instruction 
 ## Debugging chrome
+Open up debugger - F12 or inspect page  
+
+Inpect Html elements
+- View elements
+- change styles
+
+Breakpoints (on JS only. Don't demo on Css or html) 
+- Resume, continue on breakpoints
+- Step over
+- Execute code/call a function using console when on a breakpoint
+- View variables in local window. And change variable using the console
+
+
+Debugger command
+
+
+
 Build lesson plan around debugging in chrome from this. Demonstrate with a project with bugs. Step through to find bugs.
 https://javascript.info/debugging-chrome
 
@@ -22,6 +39,7 @@ https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 Get students to intall in VS Code. Then quick demo on how to start it and make sure everyone has done it
 
 
+## Debugging chrome in VS code
 
 
 # Course materials
