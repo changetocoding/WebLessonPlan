@@ -50,6 +50,7 @@ Then Js udacity course (see if can download offline) - Get as far as possible on
 
 ## Day 4 (Thurs): Snake project
 Morn: See if I can find a youtube vid too: But will be just leave them to do task. Maybe pair them?
+
 Afternoon: Get to commit to git hub.
 
 ## Day 5 (Fri): Vercel deployment
