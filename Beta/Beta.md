@@ -45,12 +45,14 @@ Incorporate video tutorials online too? (Find youtube tutorial and see if can do
 
 ## Day 3 (Sat): Javascript
 JavaScript - intro.to js video watch. [JACOB]  
-Then Js udacity course (see if can download offline)  
+Then Js udacity course (see if can download offline) - Get as far as possible on it. Teacher chill day
 
-More JS. Get to commit to git hub
 
 ## Day 4 (Thurs): Snake project
 See if I can find a youtube vid too: But will be just leave them to do task. Maybe pair them?  
+
+
+Get to commit to git hub
 
 ## Day 5 (Fri): Vercel deployment
 Get to lookup how to redirect page (10 min excerise) & get url &params  on stackoverflow.  
