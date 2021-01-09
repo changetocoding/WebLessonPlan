@@ -49,7 +49,7 @@ Then Js udacity course (see if can download offline) - Get as far as possible on
 
 
 ## Day 4 (Thurs): Snake project
-See if I can find a youtube vid too: But will be just leave them to do task. Maybe pair them?  
+See if I can find a youtube vid too: But will be just leave them to do task. Maybe pair them?  2-4 hours
 
 
 Get to commit to git hub
