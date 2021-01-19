@@ -2,6 +2,7 @@
 
 # Prior Homework assessment
 
+
 # Lesson objectives
 - Understand Ajax
 - Understand difference between GET and Post
@@ -13,8 +14,6 @@ Unknown...
 
 # Teacher instruction 
 
-
-- Understand difference between GET and POST request
 
 
 # Course materials
