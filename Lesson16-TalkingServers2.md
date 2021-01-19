@@ -83,6 +83,6 @@ Additional course materials that teachers should review and can be used
 
 # Homework
 - We've set up an api server for you. Get your ecommerce website to talk to that api to get products and post orders.
-
+- Read: https://en.wikipedia.org/wiki/Representational_state_transfer
 
 
