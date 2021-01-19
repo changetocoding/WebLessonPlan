@@ -94,6 +94,7 @@ Lessons 21-30 -
 - Unit testing - https://designmodo.com/test-javascript-unit/
 - Group project
 - Projects
+- Centering elements from https://css-tricks.com/
 
 
 # Project ideas
