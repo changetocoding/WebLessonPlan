@@ -96,6 +96,7 @@ Lessons 21-30 -
 - Projects
 - Centering elements from https://css-tricks.com/
 - Grids
+- ES6 features: Split over 2 weeks as have covered bits, but also covers classes: https://classroom.udacity.com/courses/ud356
 
 
 # Project ideas
