@@ -95,6 +95,7 @@ Lessons 21-30 -
 - Group project
 - Projects
 - Centering elements from https://css-tricks.com/
+- Grids
 
 
 # Project ideas
