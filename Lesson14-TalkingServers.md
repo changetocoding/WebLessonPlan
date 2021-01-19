@@ -33,9 +33,11 @@ fetch('/api/search/forecast?day=saturday')
    .then(data => console.log(data));
 
 ```
+
 Additional resources:
 https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
 https://javascript.info/fetch
+https://classroom.udacity.com/courses/ud109/lessons/ (chapter 3)
 
 ### Axios
 https://github.com/axios/axios
@@ -81,6 +83,7 @@ Additional course materials that teachers should review and can be used
 
 
 # Homework
+- https://classroom.udacity.com/courses/ud109/lessons/ (chapter 3)
 - Carry on with project. In 2 weeks will come back to this and make server requests
 
 (Optional) Watch this for some gotcha's for Js [link](https://www.youtube.com/watch?v=hQVTIJBZook). It is from 2009 so it is a bit outdated
