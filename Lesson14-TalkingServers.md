@@ -5,7 +5,7 @@
 # Lesson objectives
 - Make web request for data using Axios
 - Make web request for data using fetch api
-- Understand difference between GET and POST request
+- Http status codes
 
 
 # Lesson time to deliever:
@@ -18,7 +18,7 @@ Hitting the server as I like to call it.
 
 Most modern web applications talk to a server to get data. Get students to come up with a few examples (e.g yahoo mail talks to server to get emails, google to get search results).
 
-We'll explain AJAX (the underlying technology) later. For the time being just need to know how to make a request.
+We'll explain AJAX (the underlying technology) & difference between get and post later. For the time being just need to know how to make a request.
 
 Make sure students know can use to get data, but also update data on server.
 
