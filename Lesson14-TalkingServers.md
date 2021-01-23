@@ -13,7 +13,7 @@ Unknown...
 
 # Teacher instruction 
 
-# Js Ajax requests
+## Js Ajax requests
 Hitting the server as I like to call it. 
 
 Most modern web applications talk to a server to get data. Get students to come up with a few examples (e.g yahoo mail talks to server to get emails, google to get search results).
@@ -79,7 +79,7 @@ Additional course materials that teachers should review and can be used
 - https://httpstatusdogs.com/
 
 # Recommendations
-- Additional notes
+- It's really good to have elements on the page which you update with the value from the request.
 
 
 # Homework
