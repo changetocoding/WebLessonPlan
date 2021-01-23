@@ -11,11 +11,6 @@
 Unknown...
 
 # Teacher instruction 
-## Get vs Post
-Get  | Post
---- | --- 
-/api/it?name=Tom&no=10|/api/it |
-Data is contained in Url| Data is contained in req body
 
 ## How to display data with new lines?
 Emmanuel got asked this in an interview
