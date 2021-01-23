@@ -95,9 +95,9 @@ Additional course materials that teachers should review and can be used
 
 # Recommendations
 - It's really good to have elements on the page which you update with the value from the request.
-- Test knowledge of arrow vs Function Declaration, vs function expressions. E.g.
+- Make lesson interactive by testing knowledge of arrow vs Function Declaration, vs function expressions. E.g.
 
-```
+```js
 axios.get("url").then(function (response) {
    console.log(response.data);
    ...
