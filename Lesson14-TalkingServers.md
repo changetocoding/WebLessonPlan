@@ -75,7 +75,19 @@ Demonstrate a get and a post request. Show or get students to compare how much e
 
 ### Http status codes
 https://httpstatusdogs.com/
-Explain HTTP Status codes get from making a request. The 3 important ones are: 200 - Success, 404- not found, and 500 internal server error
+Explain HTTP Status codes get from making a request. 
+
+The 3 important ones are: 
+200 - Success  
+401 - Forbidden
+404 - not found  
+500 - internal server error  
+
+
+Demonstrate this in the network tab of chrome and look up what some of the codes you see there mean
+
+
+
 
 
 ### Difference between post and get request
