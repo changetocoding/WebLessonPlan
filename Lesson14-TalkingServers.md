@@ -11,7 +11,7 @@
 # Lesson time to deliever:
 Unknown...
 
-# Teacher instruction 
+# Teacher instruction
 
 ## Js Ajax requests
 Hitting the server as I like to call it. 
@@ -95,7 +95,19 @@ Additional course materials that teachers should review and can be used
 
 # Recommendations
 - It's really good to have elements on the page which you update with the value from the request.
+- Test knowledge of arrow vs Function Declaration, vs function expressions. E.g.
 
+```
+axios.get("url").then(function (response) {
+   console.log(response.data);
+   ...
+});
+
+// so how would you rewrite the function in the then so that is is an arrow function
+axios.get("url").then((response) => {
+   console.log(response.data);
+});
+```
 
 # Homework
 - https://classroom.udacity.com/courses/ud109/lessons/ (chapter 3)
