@@ -36,6 +36,8 @@ fetch('/api/search/forecast?day=saturday')
 
 ```
 
+Demonstrate a get and a post request
+
 Additional resources:
 https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch  
 https://javascript.info/fetch  
@@ -67,6 +69,9 @@ axios.post('/api/search/update', { day: "Today", weather: "Sunny"})
         console.log(error);
     });
 ```
+
+
+Demonstrate a get and a post request. Show or get students to compare how much easier doing a post request is with axios
 
 ### Http status codes
 https://httpstatusdogs.com/
