@@ -16,7 +16,9 @@ Unknown...
 ## Js Ajax requests
 Hitting the server as I like to call it. 
 
-Most modern web applications talk to a server to get data. Get students to come up with a few examples (e.g yahoo mail talks to server to get emails, google to get search results).
+Most modern web applications talk to a server to get data. (MUST DO:) Get students to come up with a few examples (e.g yahoo mail talks to server to get emails, google to get search results).
+
+Tie back to 
 
 We'll explain AJAX (the underlying technology) & difference between get and post later. For the time being just need to know how to make a request.
 
@@ -70,6 +72,19 @@ axios.post('/api/search/update', { day: "Today", weather: "Sunny"})
 https://httpstatusdogs.com/
 Explain HTTP Status codes get from making a request. The 3 important ones are: 200 - Success, 404- not found, and 500 internal server error
 
+
+### Difference between post and get request
+Get them to research it and then present back to class and discuss
+Start off here then: https://stackoverflow.com/questions/3477333/what-is-the-difference-between-post-and-get
+
+**Answer:**
+
+Get  | Post
+--- | --- 
+/api/it?name=Tom&no=10|/api/it |
+Data is contained in Url| Data is contained in req body
+
+
 # Course materials
 Additional course materials that teachers should review and can be used
 - https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
@@ -85,5 +100,6 @@ Additional course materials that teachers should review and can be used
 # Homework
 - https://classroom.udacity.com/courses/ud109/lessons/ (chapter 3)
 - Carry on with project. In 2 weeks will come back to this and make server requests
+- Present difference between Post and get
 
 (Optional) Watch this for some gotcha's for Js [link](https://www.youtube.com/watch?v=hQVTIJBZook). It is from 2009 so it is a bit outdated
