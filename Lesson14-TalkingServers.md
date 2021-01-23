@@ -37,9 +37,9 @@ fetch('/api/search/forecast?day=saturday')
 ```
 
 Additional resources:
-https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
-https://javascript.info/fetch
-https://classroom.udacity.com/courses/ud109/lessons/ (chapter 3)
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch  
+https://javascript.info/fetch  
+https://classroom.udacity.com/courses/ud109/lessons/ (chapter 3)  
 
 ### Axios
 https://github.com/axios/axios
