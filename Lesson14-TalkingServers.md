@@ -113,7 +113,6 @@ Scenario product page. Click on a product go to that products page and display d
 
 On product list page redirect on a product button click
 ```js
-//
 productOneBtnElement.onclick = function(e){
    let newUrl = "/product.html?id=1"
    document.location.href = newUrl;
