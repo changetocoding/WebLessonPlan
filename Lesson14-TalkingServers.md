@@ -94,7 +94,7 @@ Demonstrate this in the network tab of chrome and look up what some of the codes
 
 
 ### Difference between post and get request
-Get them to research it and then present back to class and discuss
+Get them to research it and then present back to class and discuss  
 Start off here then: https://stackoverflow.com/questions/3477333/what-is-the-difference-between-post-and-get
 
 **Answer:**
