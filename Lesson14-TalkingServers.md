@@ -104,6 +104,38 @@ Get  | Post
 /api/it?name=Tom&no=10|/api/it |
 Data is contained in Url| Data is contained in req body
 
+Note all html urls you type into a browser e.g. www.bbc.co.uk are get requests.
+
+
+### Advanced: How to get data from url and use it.
+Scenario product page. Click on a product go to that products page and display data for product. But do not want a page per a product
+
+
+On product list page redirect on a product button click
+```js
+//
+productOneBtnElement.onclick = function(e){
+   let newUrl = "/product.html?id=1"
+   document.location.href = newUrl;
+}
+```
+or just using an a link
+```html
+<a href="/product.html?id=1">More info</a>
+```
+Notice our use of html query string *?id=1*. [More info on query string](https://en.wikipedia.org/wiki/Query_string)
+
+On the *product.html* page we need to get the query string from our url
+```js
+// our url is .../product.html?id=1
+
+let searchParams = new URLSearchParams(window.location.search)
+// searchParams.has('id') // We can do this to check if param exists
+let param = searchParams.get('id') // "1"
+
+// We can now fetch the data with id 1 from the server (or a local array)
+```
+
 
 # Course materials
 Additional course materials that teachers should review and can be used
