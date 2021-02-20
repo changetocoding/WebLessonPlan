@@ -12,9 +12,13 @@
 - Do not cover form
 - Bootstrap - Go through bootstrap form controls
 
+### Bootstrap 
+Use the starter template here. https://getbootstrap.com/docs/4.5/getting-started/introduction/
+Explain container & the grid system: https://getbootstrap.com/docs/4.5/layout/grid/
+
+
 ### Label for
 Explain "Label for" and other way of doing it: https://stackoverflow.com/questions/18432376/what-does-for-attribute-do-in-html-label-tag
-
 
 The <label> tag allows you to click on the label, and it will be treated like clicking on the associated input element. There are two ways to create this association:
   
@@ -48,7 +52,13 @@ https://getbootstrap.com/docs/4.0/components/forms
 - Live server in vs code to live reload code
 - Have a split screen setup so don't have to switch screens as often.
 
+
+# Recommendations:
+- Live server in vs code to live reload code
+- Have a split screen setup so don't have to switch screens as often.
+
 # Homework
 - Create a login form
 - Create a form to get data from user: name, ... address...
 - Try out all the different button styles from https://getbootstrap.com/docs/4.0/components/buttons/
+- Do bootstrap grid tutorial - https://designmodo.com/bootstrap-grid/ and https://getbootstrap.com/docs/4.5/layout/grid/
