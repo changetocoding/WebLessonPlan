@@ -26,7 +26,10 @@ Useful videos:
 - Explain how browser works
 - Explain Html and demonstrate a html page
     - Make sure explain opening and closing tags
-    - Go through some key tags: Like <html>, <body>, <head>, <p>, <h1>
+    - Go through some key tags: Like 
+```html
+<html>, <body>, <head>, <p>, <h1>
+```
 - Then get them to make html page.
 [Class Ex] Walk through (already set up) VS code. then class to write code teacher wrote, then extra tag. Or alternatively get them to use tutorial to run through it
 
