@@ -22,11 +22,12 @@ https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form
 
 _Nice diagram about client/server architectures on that page too._
 
-Most forms are post request. _QUIZ: What is difference between POST & GET_
+Most forms are post request. 
+_QUIZ: What is difference between POST & GET_
 
-_Answer (see lesson 14, "talking to servers I" too):
-- Post tends to be updating data. No query parameters
-- GET tends to be to fetch data._
+_Answer (see lesson 14, "talking to servers I" too):_
+- _Post tends to be updating data. No query parameters_
+- _GET tends to be to fetch data._
 
 So Forms naturally tend to be post requests. But can also have get request
 
