@@ -134,12 +134,13 @@ document.getElementById("btnSub").onclick = function(e){
 }
 ```
 
-## Debug in chrome
+## Debug Request in chrome
 [Emmanuel]
 
 In chrome debug open network tab.  
 Click on the request.  
-Then click on the Headers sub tab.  
+Then click on the Headers sub tab.
+scroll to bottom which will have data
 https://stackoverflow.com/questions/15603561/how-can-i-debug-a-http-post-in-chrome  
 ![Debug](https://i.stack.imgur.com/8RVcY.png)
 
@@ -148,9 +149,21 @@ Show how it looks between
 ### Get (can be form data or object)
 url will look like https://tbhpwebdevapi.azurewebsites.net/api/Message/saveWithGet?say=Hi&to=Mom
 ```
-Query String Parameters
+Query String Parameters (Decoded)
 say: Hi
 to: Mom
+```
+
+### Post (can be form data)
+```
+Form Data
+say: Hi
+to: Mom
+```
+
+### Post JSON
+```json
+{say: "Hoi", to: "Peter"}
 ```
 
 
