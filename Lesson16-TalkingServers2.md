@@ -149,7 +149,7 @@ This also covers it https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending
 
 Show how it looks between 
 ### Get
-All get request use a query string. So the url the data will be sent to will look like .../api/save?say=Hi&to=Mom
+All get request use a query string. So the url the data will be sent to will look like _.../api/save?say=Hi&to=Mom_
 ```
 say=Hi&to=Mom
 ```
