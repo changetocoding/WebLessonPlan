@@ -32,7 +32,7 @@ _Answer (see lesson 14, "talking to servers I" too):_
 So Forms naturally tend to be post requests. But can also have get request
 
 ## Form tag
-Similar to Div: This is a set of input fields we are going to send to server
+Similar to Div: Used to group a set of input fields we are going to send to server
 
 We've been creating forms with bootstrap
 https://getbootstrap.com/docs/5.0/forms/overview/
