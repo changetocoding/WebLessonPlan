@@ -151,6 +151,7 @@ Show how it looks between
 ### Get
 All get request use a query string. So the url the data will be sent to will look like https://tbhpwebdevapi.azurewebsites.net/api/Message/saveWithGet?say=Hi&to=Mom
 ```
+say=Hi&to=Mom
 Query String Parameters (Decoded)
 say: Hi
 to: Mom
