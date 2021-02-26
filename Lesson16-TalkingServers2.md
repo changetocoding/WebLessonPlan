@@ -167,7 +167,7 @@ to: Mom
 ### Post JSON
 Otherwise will send as a JSON like below
 ```json
-{say: "Hoi", to: "Peter"}
+{"say": "Hoi", "to": "Peter"}
 ```
 
 
