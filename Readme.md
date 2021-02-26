@@ -31,43 +31,21 @@ https://www.reddit.com/r/learnprogramming/comments/5pyx5t/a_beginners_trick_i_le
 3rd iteration is to build on it. Can you add another property to the Class? If it's HTML can you add 6 columns with images instead of just 2? Just add shit to the project with what you already know. Add stuff that you learned 2-3 lessons ago but haven't touched since then.
 
 
-# Other
+
+# Topics/Aims
 - Searching for data online
 - Github
-
-
-# Html
-- formatting text ->
-```
-<pre>, <p>, <br>, <span>
-```
-
-Bootstrap
+- Bootstrap
+- History of JS
+- JS 101
+- Functions in JS
+- Vue.js or React
+- Server interactions
 
 ### Tools
 - Codepen.io
 - online repls
 - stackoverflow
-
-
-
-# JS 
-- History of JS
-- JS 101
-```js
-let, var, const
-== vs ===
-```
-- Functions in JS
-
-
-# Vue.js
-
-
-# Server interactions...
-
-
-
 
 
 # Course Plan
