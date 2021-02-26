@@ -7,6 +7,7 @@ Talking to servers part 2 - Forms
 # Lesson objectives
 - Understand difference between GET and Post
 - Understand forms
+- Use a form to send data from Client to Server
 
 
 # Lesson time to deliever:
@@ -90,7 +91,8 @@ document.getElementById("myForm").addEventListener("submit", function(e){
   e.preventDefault(); // Have to call this as default would be submit form (to nowhere) and reload page
 }
 ```
-Video: https://www.youtube.com/watch?v=c3qWHnJJbSY
+Video (Visual Learners): https://www.youtube.com/watch?v=c3qWHnJJbSY
+
 More on form data: https://developer.mozilla.org/en-US/docs/Web/API/FormData/Using_FormData_Objects
 
 ## Quick and dirty way to do it
