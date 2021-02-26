@@ -160,6 +160,8 @@ say: Hi
 to: Mom
 ```
 
+**GET requests are not recommend if it will update your data. So For example can use GET when searching for orders with a name and customer Id. But do not for updating data**
+
 ### Post form data
 For POST if using Javascript's FormData then will send as below.
 ```
@@ -196,7 +198,8 @@ Url:
 Api Documentation & playground : https://tbhpwebdevapi.azurewebsites.net/swagger/index.html  
 Example to get list of all products: https://tbhpwebdevapi.azurewebsites.net/api/Bonsai
 
-We also have '.../usingXXX' methods for you to try out the different ways - Use a combination of them (e.g. POST order using FormData, while use GET to add a new client)
+We also have '.../usingXXX' methods for you to try out the different ways - Use a combination of them (e.g. POST order using FormData, while use POST with json to add a new client)
+
 
 - Read: https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data
 - (Visual learners) Video: https://www.youtube.com/watch?v=c3qWHnJJbSY
