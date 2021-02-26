@@ -106,11 +106,11 @@ You can also just get the value of the field(s) and use it in the post or get re
 <form>
   <div>
     <label for="say">What greeting do you want to say?</label>
-    <input name="say" id="say" value="Hi">
+    <input id="say" value="Hi">
   </div>
   <div>
     <label for="to">Who do you want to say it to?</label>
-    <input name="to" id="to" value="Mom">
+    <input id="to" value="Mom">
   </div>
   <div>
     <button id="btnSub">Send my greetings</button>
