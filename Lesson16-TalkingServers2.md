@@ -141,7 +141,7 @@ In chrome debug open network tab.
 Click on the request.  
 Then click on the Headers sub tab.  
 https://stackoverflow.com/questions/15603561/how-can-i-debug-a-http-post-in-chrome  
-[image](https://i.stack.imgur.com/8RVcY.png)
+![Debug](https://i.stack.imgur.com/8RVcY.png)
 
 
 Show how it looks between 
