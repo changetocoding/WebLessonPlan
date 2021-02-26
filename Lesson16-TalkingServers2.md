@@ -198,9 +198,8 @@ Url:
 Api Documentation & playground : https://tbhpwebdevapi.azurewebsites.net/swagger/index.html  
 Example to get list of all products: https://tbhpwebdevapi.azurewebsites.net/api/Bonsai
 
-We also have '.../usingXXX' methods for you to try out the different ways - Use a combination of them (e.g. POST order using FormData, while use GET to add a new client)
+We also have '.../usingXXX' methods for you to try out the different ways - Use a combination of them (e.g. POST order using FormData, while use POST with json to add a new client)
 
-We've allowed /api/Client/create/usingGet but do not update/create data using a get in real life
 
 - Read: https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data
 - (Visual learners) Video: https://www.youtube.com/watch?v=c3qWHnJJbSY
