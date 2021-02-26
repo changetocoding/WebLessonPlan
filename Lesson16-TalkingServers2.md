@@ -57,8 +57,6 @@ https://getbootstrap.com/docs/5.0/forms/overview/
 
 It's why that page is called "Forms"
 
-Youtube video: https://www.youtube.com/watch?v=E5MEzC0prd4
-
 Explain why forms.
 
 **Confession: I have never done it this way and don't know anyone that one does it this way**
@@ -68,7 +66,7 @@ Explain why forms.
 
 Or with axios and Javasript's form data (newer way of doing it)
 ```html
-<form>
+<form id="myForm">
   <div>
     <label for="say">What greeting do you want to say?</label>
     <input name="say" id="say" value="Hi">
@@ -83,22 +81,17 @@ Or with axios and Javasript's form data (newer way of doing it)
 </form>
 ```
 ```js
-document.getElementById("btnSub").onclick = function(e){
-  let form = document.querySelector('form');
-  let data = new FormData(form);
-  axios.post('/example', data);
+// we handle the submit event on the form
+document.getElementById("myForm").addEventListener("submit", function(e){
+  let form = document.getElementById('myForm');
+  let formData = new FormData(form);
+  axios.post('/example', formData);
   
   e.preventDefault(); // Have to call this as default would be submit form (to nowhere) and reload page
 }
 ```
-
-
+Video: https://www.youtube.com/watch?v=c3qWHnJJbSY
 More on form data: https://developer.mozilla.org/en-US/docs/Web/API/FormData/Using_FormData_Objects
-
-You can also do it with jquerys ajax but as people are moving away from ajax we will not cover that.
-
-Even better: With modern js frameworks (like angular, react, vue) you have a ViewModel object that contains the data the user has entered. So can directly just make a server call without having to find the elements and the data in the element first.
-
 
 ## Quick and dirty way to do it
 You can also just get the value of the field(s) and use it in the post or get request.
@@ -136,6 +129,11 @@ document.getElementById("btnSub").onclick = function(e){
 ```
 
 
+## Jquery/Modern JS frameworks
+You can also do it with jquerys ajax but as people are moving away from ajax we will not cover that.
+
+Even better: With modern js frameworks (like angular, react, vue) you have a ViewModel object that contains the data the user has entered. So can directly just make a server call without having to find the elements and the data in the element first.
+
 
 # Course materials
 Additional course materials that teachers should review and can be used
@@ -147,6 +145,6 @@ Additional course materials that teachers should review and can be used
 
 # Homework
 - We've set up an api server for you. Get your ecommerce website to talk to that api to get products and post orders.
-- Read: https://en.wikipedia.org/wiki/Representational_state_transfer
-
-
+- Read: https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data
+- (Visual learners) Video: https://www.youtube.com/watch?v=c3qWHnJJbSY
+- Optional Read: https://en.wikipedia.org/wiki/Representational_state_transfer
