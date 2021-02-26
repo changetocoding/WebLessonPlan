@@ -34,6 +34,11 @@ So Forms naturally tend to be post requests. But can also have get request
 ## Form tag
 Similar to Div: This is a set of input fields we are going to send to server
 
+We've been creating forms with bootstrap
+https://getbootstrap.com/docs/5.0/forms/overview/
+
+It's why that page is called "Forms"
+
 ## Html Form, No Javascript
 ```html
 <form action="http://www.foo.com" method="GET">
@@ -53,12 +58,6 @@ Similar to Div: This is a set of input fields we are going to send to server
 
 It uses name to map the field to value. NOT ID
 
-We've been creating forms with bootstrap
-https://getbootstrap.com/docs/5.0/forms/overview/
-
-It's why that page is called "Forms"
-
-Explain why forms.
 
 **Confession: I have never done it this way and don't know anyone that one does it this way**
 (Emmanuel ask Jacob ask Mitul about it)
