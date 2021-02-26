@@ -149,7 +149,10 @@ Additional course materials that teachers should review and can be used
 
 
 # Homework
-- We've set up an api server for you. Get your ecommerce website to talk to that api to get products and post orders.
+- We've set up an api server for you. Get your ecommerce website to talk to that api to get products and post orders.  
+Url:   
+Api Documentation & playground : https://tbhpwebdevapi.azurewebsites.net/swagger/index.html  
+Example to get list of all products: https://tbhpwebdevapi.azurewebsites.net/api/Bonsai
 - Read: https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data
 - (Visual learners) Video: https://www.youtube.com/watch?v=c3qWHnJJbSY
 - Optional Read: https://en.wikipedia.org/wiki/Representational_state_transfer
