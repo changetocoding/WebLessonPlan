@@ -20,14 +20,13 @@ When Html was invented. Forms were the way to go. It was a way of submiting data
 
 https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data
 
-Nice diagram about client/server architectures on that page too.
+_Nice diagram about client/server architectures on that page too._
 
-Most forms are post request.
-What is difference between POST & GET
+Most forms are post request. _QUIZ: What is difference between POST & GET_
 
-Answer (see lesson 14, "talking to servers I" too):
+_Answer (see lesson 14, "talking to servers I" too):
 - Post tends to be updating data. No query parameters
-- GET tends to be to fetch data.
+- GET tends to be to fetch data._
 
 So Forms naturally tend to be post requests. But can also have get request
 
