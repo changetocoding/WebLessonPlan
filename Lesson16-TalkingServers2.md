@@ -38,7 +38,8 @@ Nice diagram about client/server architectures on that page too
 </form>
 ```
 
-**Confession: I have never done it this way and no one does it this way**
+**Confession: I have never done it this way and don't know anyone that one does it this way**
+(Emmanuel ask Jacob ask Mitul about it)
 
 ## AJAX
 AJAX & Jquery to the rescue:
