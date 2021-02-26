@@ -65,5 +65,12 @@ namespace Lesson16Webserver.Controllers
         {
             return _simpleOrders.GetAll().Where(x => x.ClientName == clientName);
         }
+
+        [HttpGet]
+        [Route("search")]
+        public IEnumerable<SimpleOrder> SearchOrders(string productNameContains, int qtyLessThan)
+        {
+            return _simpleOrders.GetAll().Where(x => x.ProductName != null && x.ProductName.Contains(productNameContains) && x.Qty < qtyLessThan);
+        }
     }
 }

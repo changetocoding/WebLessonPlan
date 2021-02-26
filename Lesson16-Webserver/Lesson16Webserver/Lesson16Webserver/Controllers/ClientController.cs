@@ -28,15 +28,6 @@ namespace Lesson16Webserver.Controllers
             return _store.GetAll();
         }
 
-        [HttpGet]
-        [Route("create/usingGet")]
-        public Client GetCreate(string email, string password, string name)
-        {
-            if(!email.Contains("@"))
-                throw new Exception("Email must have an @");
-            return _store.Create(new Client(email, password, name));
-        }
-
         [HttpPost]
         [Route("create/usingJson")]
         public Client PostCreate(Client item)
