@@ -44,6 +44,7 @@ It's why that page is called "Forms"
 ## Html Form, No Javascript
 ```html
 <form action="http://www.foo.com" method="GET">
+   <!-- Method can be GET or POST depending on your server -->
   <div>
     <label for="say">What greeting do you want to say?</label>
     <input name="say" id="say" value="Hi">
@@ -66,8 +67,7 @@ It uses name to map the field to value. NOT ID
 (Emmanuel ask Jacob ask Mitul about it)
 
 ## Form Data
-
-Or with axios and Javasript's form data (newer way of doing it)
+Or with axios and Javasript's FormData (newer way of doing it)
 ```html
 <form id="myForm">
   <div>
@@ -148,8 +148,8 @@ This also covers it https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending
 
 
 Show how it looks between 
-### Get (can be form data or object)
-url will look like https://tbhpwebdevapi.azurewebsites.net/api/Message/saveWithGet?say=Hi&to=Mom
+### Get
+All get request use a query string. So the url the data will be sent to will look like https://tbhpwebdevapi.azurewebsites.net/api/Message/saveWithGet?say=Hi&to=Mom
 ```
 Query String Parameters (Decoded)
 say: Hi
@@ -157,6 +157,7 @@ to: Mom
 ```
 
 ### Post form data
+For POST if using Javascript's FormData then will send as below.
 ```
 Form Data
 say: Hi
@@ -164,6 +165,7 @@ to: Mom
 ```
 
 ### Post JSON
+Otherwise will send as a JSON like below
 ```json
 {say: "Hoi", to: "Peter"}
 ```
