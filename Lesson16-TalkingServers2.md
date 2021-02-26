@@ -78,14 +78,18 @@ Or with axios and Javasript's form data (newer way of doing it)
     <input name="to" id="to" value="Mom">
   </div>
   <div>
-    <button>Send my greetings</button>
+    <button id = "btnSub" >Send my greetings</button>
   </div>
 </form>
 ```
 ```js
-let form = document.querySelector('form');
-let data = new FormData(form);
-axios.post('/example', data);
+document.getElementById("btnSub").onclick = function(e){
+  let form = document.querySelector('form');
+  let data = new FormData(form);
+  axios.post('/example', data);
+  
+  e.preventDefault(); // Have to call this as default would be submit form (to nowhere) and reload page
+}
 ```
 
 
