@@ -23,6 +23,7 @@ https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form
 _Nice diagram about client/server architectures on that page too._
 
 Most forms are post request. 
+
 _QUIZ: What is difference between POST & GET_
 
 _Answer (see lesson 14, "talking to servers I" too):_
