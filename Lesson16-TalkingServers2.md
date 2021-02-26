@@ -134,6 +134,8 @@ document.getElementById("btnSub").onclick = function(e){
 }
 ```
 
+## Debug in chrome
+[Emmanuel]
 
 ## Jquery/Modern JS frameworks
 You can also do it with jquerys ajax but as people are moving away from ajax we will not cover that.
