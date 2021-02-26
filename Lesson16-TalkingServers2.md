@@ -52,6 +52,7 @@ It's why that page is called "Forms"
     <input name="to" id="to" value="Mom">
   </div>
   <div>
+    <!-- Button needs to be within form -->
     <button>Send my greetings</button>
   </div>
 </form>
@@ -76,10 +77,11 @@ Or with axios and Javasript's form data (newer way of doing it)
     <label for="to">Who do you want to say it to?</label>
     <input name="to" id="to" value="Mom">
   </div>
+</form>
+<!-- Button somewhere else. Doesnt need to be within form -->
   <div>
     <button id = "btnSub" >Send my greetings</button>
   </div>
-</form>
 ```
 ```js
 // we handle the submit event on the form
