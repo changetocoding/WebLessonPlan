@@ -77,11 +77,10 @@ Or with axios and Javasript's form data (newer way of doing it)
     <label for="to">Who do you want to say it to?</label>
     <input name="to" id="to" value="Mom">
   </div>
-</form>
-<!-- Button somewhere else. Doesnt need to be within form -->
   <div>
-    <button id = "btnSub" >Send my greetings</button>
+    <button id="btnSub">Send my greetings</button>
   </div>
+</form>
 ```
 ```js
 // we handle the submit event on the form
@@ -109,10 +108,12 @@ You can also just get the value of the field(s) and use it in the post or get re
     <label for="to">Who do you want to say it to?</label>
     <input id="to" value="Mom">
   </div>
-  <div>
-    <button id="btnSub">Send my greetings</button>
-  </div>
 </form>
+
+<!-- Button somewhere else. Doesnt need to be within form -->
+  <div>
+    <button id = "btnSub" >Send my greetings</button>
+  </div>
 ```
 ```js
 document.getElementById("btnSub").onclick = function(e){
