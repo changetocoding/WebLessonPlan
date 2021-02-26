@@ -20,8 +20,18 @@ When Html was invented. Forms were the way to go. It was a way of submiting data
 
 https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data
 
-Nice diagram about client/server architectures on that page too
+Nice diagram about client/server architectures on that page too.
 
+Most forms are post request.
+What is difference between POST & GET
+
+Answer (see lesson 14, "talking to servers I" too):
+- Post tends to be updating data. No query parameters
+- GET tends to be to fetch data.
+
+So Forms naturally tend to be post requests. But can also have get request
+
+## Html Form, No Javascript
 ```html
 <form action="http://www.foo.com" method="GET">
   <div>
@@ -41,41 +51,77 @@ Nice diagram about client/server architectures on that page too
 **Confession: I have never done it this way and don't know anyone that one does it this way**
 (Emmanuel ask Jacob ask Mitul about it)
 
-## AJAX
-AJAX & Jquery to the rescue:
-```js
-$("#idForm").submit(function(e) {
-    e.preventDefault(); // avoid to execute the actual submit of the form.
-
-    var form = $(this);
-    var url = form.attr('action'); // or plug in your url here
-    
-    // this bit can be swapped out with axios below
-    $.ajax({
-           type: "POST",
-           url: url,
-           data: form.serialize(), // serializes the form's elements.
-           success: function(data)
-           {
-               alert(data); // show response from the server
-           }
-         });
-});
-```
+## Form Data
 
 Or with axios and Javasript's form data (newer way of doing it)
+```html
+<form>
+  <div>
+    <label for="say">What greeting do you want to say?</label>
+    <input name="say" id="say" value="Hi">
+  </div>
+  <div>
+    <label for="to">Who do you want to say it to?</label>
+    <input name="to" id="to" value="Mom">
+  </div>
+  <div>
+    <button>Send my greetings</button>
+  </div>
+</form>
+```
 ```js
-var form = document.querySelector('form');
-var data = new FormData(form);
+let form = document.querySelector('form');
+let data = new FormData(form);
 axios.post('/example', data);
 ```
-Even better: With modern ui frameworks you have a ViewModel object that contains the data the user has entered. So can directly just make a server call without having to find the elements and the data in the element first.
+
+
+More on form data: https://developer.mozilla.org/en-US/docs/Web/API/FormData/Using_FormData_Objects
+
+You can also do it with jquerys ajax but as people are moving away from ajax we will not cover that.
+
+Even better: With modern js frameworks (like angular, react, vue) you have a ViewModel object that contains the data the user has entered. So can directly just make a server call without having to find the elements and the data in the element first.
+
+
+## Quick and dirty way to do it
+You can also just get the value of the field(s) and use it in the post or get request.
+```html
+<form>
+  <div>
+    <label for="say">What greeting do you want to say?</label>
+    <input name="say" id="say" value="Hi">
+  </div>
+  <div>
+    <label for="to">Who do you want to say it to?</label>
+    <input name="to" id="to" value="Mom">
+  </div>
+  <div>
+    <button id="btnSub">Send my greetings</button>
+  </div>
+</form>
+```
+```js
+document.getElementById("btnSub").onclick = function(e){
+  e.preventDefault(); // Have to call this as default would be submit form (to nowhere) and reload page
+  const sayTxt = document.getElementById("say").value; // Get value from input
+  const toTxt = document.getElementById("to").value; // Get value from input
+  const payload = {say:sayTxt, to:toTxt}; // 
+  axios.post('https://example.com/example', payload); 
+  // Fetch painful...
+  //fetch('https://example.com/example', {
+  //  method: 'POST', 
+  //  headers: {
+  //    'Content-Type': 'application/json',
+  //  },
+  //  body: JSON.stringify(payload),
+  //})
+}
+```
 
 
 
 # Course materials
 Additional course materials that teachers should review and can be used
-- Material 1
 
 
 # Recommendations
