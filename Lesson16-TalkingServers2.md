@@ -134,7 +134,7 @@ document.getElementById("btnSub").onclick = function(e){
 }
 ```
 
-## Debug Request in chrome
+## Viewing HTTP Request in chrome
 [Emmanuel]
 
 In chrome debug open network tab.  
@@ -143,6 +143,8 @@ Then click on the Headers sub tab.
 scroll to bottom which will have data
 https://stackoverflow.com/questions/15603561/how-can-i-debug-a-http-post-in-chrome  
 ![Debug](https://i.stack.imgur.com/8RVcY.png)
+
+This also covers it https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data#viewing_http_requests
 
 
 Show how it looks between 
