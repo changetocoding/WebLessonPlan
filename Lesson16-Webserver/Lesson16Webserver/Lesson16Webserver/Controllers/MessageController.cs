@@ -29,10 +29,10 @@ namespace Lesson16Webserver.Controllers
 
 
         [HttpGet]
-        [Route("saveWithGet")]
+        [Route("save/usingGet")]
         public Message SaveMessage(string to, string say)
         {
-            return _messageStore.Save(new Message()
+            return _messageStore.Create(new Message()
             {
                 Say = say,
                 To = to
@@ -40,10 +40,18 @@ namespace Lesson16Webserver.Controllers
         }
 
         [HttpPost]
-        [Route("save")]
+        [Route("save/usingJson")]
         public Message PostMessage(Message item)
         {
-            return _messageStore.Save(item);
+            return _messageStore.Create(item);
+        }
+
+
+        [HttpPost]
+        [Route("save/usingFormData")]
+        public Message PostMessageForm([FromForm] Message item)
+        {
+            return _messageStore.Create(item);
         }
 
         [HttpGet]

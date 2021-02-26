@@ -9,6 +9,8 @@ namespace Lesson16Webserver
 {
     public class Startup
     {
+        readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -24,6 +26,18 @@ namespace Lesson16Webserver
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
             });
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: MyAllowSpecificOrigins,
+                    builder =>
+                    {
+                        builder.AllowAnyOrigin()
+                            .AllowAnyHeader()
+                            .AllowAnyMethod();
+                    });
+            });
+
             services.AddSingleton<InMemStore<Message>>(x => new InMemStore<Message>(Message.TestData()));
             services.AddSingleton<InMemStore<Client>>(x => new InMemStore<Client>(Client.Init()));
             services.AddSingleton<InMemStore<Bonsai>>(x => new InMemStore<Bonsai>(Bonsai.Init()));
@@ -46,6 +60,9 @@ namespace Lesson16Webserver
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+
+            app.UseCors(MyAllowSpecificOrigins);
 
             app.UseEndpoints(endpoints =>
             {

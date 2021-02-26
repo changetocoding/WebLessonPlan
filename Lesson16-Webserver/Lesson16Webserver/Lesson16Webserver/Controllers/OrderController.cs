@@ -31,17 +31,24 @@ namespace Lesson16Webserver.Controllers
         }
 
         [HttpGet]
-        [Route("saveWithGet")]
+        [Route("save/usingGet")]
         public SimpleOrder GetSaveSimple(string productName, decimal productPrice, string clientName, int qty)
         {
-            return _simpleOrders.Save(new SimpleOrder(productName, productPrice, clientName, qty));
+            return _simpleOrders.Create(new SimpleOrder(productName, productPrice, clientName, qty));
         }
 
         [HttpPost]
-        [Route("save")]
+        [Route("save/usingJson")]
         public SimpleOrder PostSave(SimpleOrder item)
         {
-            return _simpleOrders.Save(item);
+            return _simpleOrders.Create(item);
+        }
+
+        [HttpPost]
+        [Route("save/usingFormData")]
+        public SimpleOrder PostSaveForm([FromForm] SimpleOrder item)
+        {
+            return _simpleOrders.Create(item);
         }
 
 

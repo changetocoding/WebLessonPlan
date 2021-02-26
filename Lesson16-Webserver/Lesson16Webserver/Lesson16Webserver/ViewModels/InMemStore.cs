@@ -31,9 +31,16 @@ namespace Lesson16Webserver.ViewModels
             return _store.First(x => x.Id == id);
         }
 
-        public T Save(T item)
+        public T Create(T item)
         {
             item.Id = _nextId++;
+            _store.Add(item);
+            return item;
+        }
+
+        public T Update(T item)
+        {
+            _store.RemoveAll(x => x.Id == item.Id);
             _store.Add(item);
             return item;
         }

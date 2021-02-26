@@ -29,22 +29,51 @@ namespace Lesson16Webserver.Controllers
         }
 
         [HttpGet]
-        [Route("saveWithGet")]
-        public Client GetSave(string email, string password, string name)
+        [Route("create/usingGet")]
+        public Client GetCreate(string email, string password, string name)
         {
             if(!email.Contains("@"))
                 throw new Exception("Email must have an @");
-            return _store.Save(new Client(email, password, name));
+            return _store.Create(new Client(email, password, name));
         }
 
         [HttpPost]
-        [Route("save")]
-        public Client PostSave(Client item)
+        [Route("create/usingJson")]
+        public Client PostCreate(Client item)
         {
             if (!item.Email.Contains("@"))
                 throw new Exception("Email must have an @");
-            return _store.Save(item);
+            return _store.Create(item);
         }
+
+        [HttpPost]
+        [Route("create/usingFormData")]
+        public Client PostCreateForm([FromForm] Client item)
+        {
+            if (!item.Email.Contains("@"))
+                throw new Exception("Email must have an @");
+            return _store.Create(item);
+        }
+
+
+        [HttpPost]
+        [Route("update/usingJson")]
+        public Client PostUpdate(Client item)
+        {
+            if (!item.Email.Contains("@"))
+                throw new Exception("Email must have an @");
+            return _store.Update(item);
+        }
+
+        [HttpPost]
+        [Route("update/usingFormData")]
+        public Client PostUpdateForm([FromBody] Client item)
+        {
+            if (!item.Email.Contains("@"))
+                throw new Exception("Email must have an @");
+            return _store.Update(item);
+        }
+
 
 
         [HttpGet]
