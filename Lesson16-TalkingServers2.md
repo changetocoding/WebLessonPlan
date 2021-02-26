@@ -154,7 +154,7 @@ say: Hi
 to: Mom
 ```
 
-### Post (can be form data)
+### Post form data
 ```
 Form Data
 say: Hi
