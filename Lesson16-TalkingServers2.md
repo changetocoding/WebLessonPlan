@@ -50,6 +50,8 @@ Similar to Div: This is a set of input fields we are going to send to server
 </form>
 ```
 
+It uses name to map the field to value. NOT ID
+
 We've been creating forms with bootstrap
 https://getbootstrap.com/docs/5.0/forms/overview/
 
