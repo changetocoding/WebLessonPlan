@@ -29,6 +29,7 @@ _QUIZ: What is difference between POST & GET_
 _Answer (see lesson 14, "talking to servers I" too):_
 - _Post tends to be updating data. No query parameters_
 - _GET tends to be to fetch data._
+- **If you are updating data use POST as webcrawlers tend to look for get requests, so you don't want google accidentally updating your database when it automatically crawls the web.**
 
 So Forms naturally tend to be post requests. But can also have get request
 
