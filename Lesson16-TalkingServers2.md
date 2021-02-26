@@ -137,6 +137,24 @@ document.getElementById("btnSub").onclick = function(e){
 ## Debug in chrome
 [Emmanuel]
 
+In chrome debug open network tab.  
+Click on the request.  
+Then click on the Headers sub tab.  
+https://stackoverflow.com/questions/15603561/how-can-i-debug-a-http-post-in-chrome  
+[image](https://i.stack.imgur.com/8RVcY.png)
+
+
+Show how it looks between 
+### Get (can be form data or object)
+url will look like https://tbhpwebdevapi.azurewebsites.net/api/Message/saveWithGet?say=Hi&to=Mom
+```
+Query String Parameters
+say: Hi
+to: Mom
+```
+
+
+
 ## Jquery/Modern JS frameworks
 You can also do it with jquerys ajax but as people are moving away from ajax we will not cover that.
 
