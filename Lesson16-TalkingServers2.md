@@ -1,13 +1,13 @@
 # Lesson
-Talking to servers part 2 - Forms
+Talking to servers part 2 - Forms & Sending User input to server
 
 # Prior Homework assessment
 
 
 # Lesson objectives
-- Understand difference between GET and Post
+- Understand difference between GET and Post Requests
 - Understand forms
-- Understand at least 2 different ways to send data form Client to Server  (e.g. using a html Form and no js, form + formdata, post request with data)
+- Understand at least 2 different ways to send user input from Client to Server  (e.g. using a html Form and no js, form + formdata, post request with data)
 - Understand why should not use GET to update data on server (Use Post instead)
 
 
@@ -16,10 +16,50 @@ Unknown...
 
 # Teacher instruction 
 
-## Form
-When Html was invented. Forms were the way to go. It was a way of submiting data. And you think of the internet as a whole it is all about submitting data.
+We want to send user inpu to a server. We're going to show several 
 
-https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data
+## Quick and dirty way to do it
+You can also just get the value of the field(s) and use it in the post or get request.
+```html
+<form>
+  <div>
+    <label for="say">What greeting do you want to say?</label>
+    <input id="say" value="Hi">
+  </div>
+  <div>
+    <label for="to">Who do you want to say it to?</label>
+    <input id="to" value="Mom">
+  </div>
+</form>
+
+<!-- Button somewhere else. Doesnt need to be within form -->
+  <div>
+    <button id = "btnSub" >Send my greetings</button>
+  </div>
+```
+```js
+document.getElementById("btnSub").onclick = function(e){
+  e.preventDefault(); // Have to call this as default would be submit form (to nowhere) and reload page
+  const sayTxt = document.getElementById("say").value; // Get value from input
+  const toTxt = document.getElementById("to").value; // Get value from input
+  const payload = {say:sayTxt, to:toTxt}; // 
+  axios.post('https://example.com/example', payload); 
+  // Fetch painful...
+  //fetch('https://example.com/example', {
+  //  method: 'POST', 
+  //  headers: {
+  //    'Content-Type': 'application/json',
+  //  },
+  //  body: JSON.stringify(payload),
+  //})
+}
+```
+
+## Form
+When Html was invented. Forms were the way to send user input form client to server. It was a way of submiting data. And when you think of the internet as a whole it is all about submitting data.
+
+
+IMPORTANT: https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data
 
 _Nice diagram about client/server architectures on that page too._
 
@@ -32,7 +72,10 @@ _Answer (see lesson 14, "talking to servers I" too):_
 - _GET tends to be to fetch data._
 - **If you are updating data use POST as webcrawlers tend to look for get requests, so you don't want google accidentally updating your database when it automatically crawls the web.**
 
-So Forms naturally tend to be post requests. But can also have get request
+So Forms naturally tend to be post requests. But can also have get request.
+
+IMPORTANT: Notice what happened to the page: It loaded a new page.
+
 
 ## Form tag
 Similar to Div: Used to group a set of input fields we are going to send to server
@@ -91,49 +134,12 @@ document.getElementById("myForm").addEventListener("submit", function(e){
   let formData = new FormData(form);
   axios.post('/example', formData);
   
-  e.preventDefault(); // Have to call this as default would be submit form (to nowhere) and reload page
+  e.preventDefault(); // Have to call this as default would be submit form (to nowhere) and reload page. This prevents that from happening. Try removing this and see how the url of the page changes
 }
 ```
 Video (Visual Learners): https://www.youtube.com/watch?v=c3qWHnJJbSY
 
 More on form data: https://developer.mozilla.org/en-US/docs/Web/API/FormData/Using_FormData_Objects
-
-## Quick and dirty way to do it
-You can also just get the value of the field(s) and use it in the post or get request.
-```html
-<form>
-  <div>
-    <label for="say">What greeting do you want to say?</label>
-    <input id="say" value="Hi">
-  </div>
-  <div>
-    <label for="to">Who do you want to say it to?</label>
-    <input id="to" value="Mom">
-  </div>
-</form>
-
-<!-- Button somewhere else. Doesnt need to be within form -->
-  <div>
-    <button id = "btnSub" >Send my greetings</button>
-  </div>
-```
-```js
-document.getElementById("btnSub").onclick = function(e){
-  e.preventDefault(); // Have to call this as default would be submit form (to nowhere) and reload page
-  const sayTxt = document.getElementById("say").value; // Get value from input
-  const toTxt = document.getElementById("to").value; // Get value from input
-  const payload = {say:sayTxt, to:toTxt}; // 
-  axios.post('https://example.com/example', payload); 
-  // Fetch painful...
-  //fetch('https://example.com/example', {
-  //  method: 'POST', 
-  //  headers: {
-  //    'Content-Type': 'application/json',
-  //  },
-  //  body: JSON.stringify(payload),
-  //})
-}
-```
 
 ## Viewing HTTP Request in chrome
 [Emmanuel]
@@ -183,6 +189,30 @@ Otherwise will send as a JSON like below
 You can also do it with jquerys ajax but as people are moving away from ajax we will not cover that.
 
 Even better: With modern js frameworks (like angular, react, vue) you have a ViewModel object that contains the data the user has entered. So can directly just make a server call without having to find the elements and the data in the element first.
+
+
+## Pros and cons of each approach
+
+### Just send over data
+Pros:
+- Don't need a form: more flexible
+
+Cons:
+- No logical grouping of the fields (e.g. like how div groups elements, form does the same for user input. Lose this benifit)
+
+### Html form (no js)
+Pros:
+- No JS required
+
+Cons:
+- Loads a new page so server needs to return html
+
+### Html form (with js)
+Pros:
+- Flexiblity over how send data over and validation of the user input
+
+Cons:
+- More code 
 
 
 # Course materials
