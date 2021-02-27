@@ -7,7 +7,8 @@ Talking to servers part 2 - Forms
 # Lesson objectives
 - Understand difference between GET and Post
 - Understand forms
-- Use a form to send data from Client to Server
+- Understand at least 2 different ways to send data form Client to Server  (e.g. using a html Form and no js, form + formdata, post request with data)
+- Understand why should not use GET to update data on server (Use Post instead)
 
 
 # Lesson time to deliever:
