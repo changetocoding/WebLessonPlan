@@ -22,5 +22,5 @@ Questions to ask:
 https://team-tn.org/wp-content/uploads/2020/01/BP_TEAM_Virtual_EdStratObsQues_2020.pdf
 
 ## Assesment rubics
-https://team-tn.org/wp-content/uploads/2013/08/TEAM-General-Educator-Rubric-2018-19.pdf
-https://www.greenville.k12.oh.us/Downloads/Teacher%20Evaluation%20Tool.pdf pg 6+
+- https://team-tn.org/wp-content/uploads/2013/08/TEAM-General-Educator-Rubric-2018-19.pdf
+- https://www.greenville.k12.oh.us/Downloads/Teacher%20Evaluation%20Tool.pdf pg 6+
