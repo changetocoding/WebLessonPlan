@@ -437,3 +437,5 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder
 .mfractor/
+/Lesson16-Webserver/Lesson16Webserver/Lesson16Webserver/Properties/ServiceDependencies/TBHPWebDevApi - Web Deploy/profile.arm.json
+/Lesson16-Webserver/Lesson16Webserver/Lesson16Webserver/Properties/launchSettings.json
