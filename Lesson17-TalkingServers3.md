@@ -12,19 +12,6 @@ Unknown...
 
 # Teacher instruction 
 
-## How to display data with new lines?
-Emmanuel got asked this in an interview
-```
-<p> 12 Fox Lane
-London
-SW1 8DD
-</p>
-```
-
-```
-<br> and <pre>
-```
-
 **Pop quiz: let vs var vs const**
 
 ## AJAX/Promises
