@@ -61,6 +61,7 @@ Additional course materials that can be used
 # Homework
 - Get them to do it locally
 - Deploy all previously done websites on Vercel
+- Git Game - https://learngitbranching.js.org/
 
 After Vercel websites are live mention that on repos can add readme.md with link to thier vercel website. Building up a collection of projects can show to people to demonstrate thier work.
 
