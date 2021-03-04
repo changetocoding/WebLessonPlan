@@ -24,10 +24,10 @@ Repeat same in git hub
 Then repeat in command line.
 
 Must read by tutors & practitioners. These two links may help trainers come up with content for the lesson:
-https://dev.to/tracycss/git-and-github-for-beginners-po3
-https://dev.to/ravirajthedeveloper/what-is-git-and-github-and-how-to-use-github-2mb1
-https://dev.to/chrisachard/confused-by-git-here-s-a-git-crash-course-to-fix-that-4cmi
-And this explained the concepts well: https://rachelcarmena.github.io/2018/12/12/how-to-teach-git.html
+https://dev.to/tracycss/git-and-github-for-beginners-po3  
+https://dev.to/ravirajthedeveloper/what-is-git-and-github-and-how-to-use-github-2mb1  
+https://dev.to/chrisachard/confused-by-git-here-s-a-git-crash-course-to-fix-that-4cmi  
+And this explained the concepts well: https://rachelcarmena.github.io/2018/12/12/how-to-teach-git.html  
 
 ## Vercel
 Was dead easy for students to work out by themselves and get it done  
