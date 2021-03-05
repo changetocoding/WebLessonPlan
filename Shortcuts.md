@@ -5,15 +5,45 @@
 - But be careful of 'emacs pinky' Would recommend getting an ergonomic keyboard after programing for >3 years
 
 
-Ergonomics
-- Guide on it
+## Intro level:
+### VS Code shortcuts should know:
+
+Windows Default key | Command
+------------ | -------------
+Ctrl + Shift + P | Open command palette
+Ctrl + Shift + F | Find in workspace
+Ctrl + / | Comment/uncomment line
+Alt + Shift + F | Format document
+Ctrl + W | Close Tab (works on browsers too)
+Middle Mouse | Edit several lines
+
+
+I normally remap these to more easier to reach positions
+
+### Other essential commands
+Save File, Copy, Paste, Cut - I normally use a key mapping software (see below) to map to F1-F4.
+
+You do alot of window switching so learn how to do that efficently. E.g. On Windows Win+M will minimise all windows and Alt+Tab cycles through windows.
+
+## Keymapping software
+AutoHotKey - Windows
+Karabiner-Elements - Mac
+
+## Ergonomics
+tdlr:
+- Learn proper seating position
+- Get keyboard can remap keys or use software to remap keys (see above)
+- Get trackpad or mouse with additional buttons so can remap frequent 
+- Beware of emacs pinky - avoid using little finger to press ctrl, use thumb instead
+- Learn to touch type properly - https://www.typingclub.com/
+
+### Guide on it
 http://xahlee.info/kbd/typing_rsi.html
 - Proper seating position
 http://xahlee.info/kbd/proper_posture.html
 
 
-This was really informative:
-http://xahlee.info/kbd/programer_keyboarding_advice.html
+This was really informative: http://xahlee.info/kbd/programer_keyboarding_advice.html
 
 
 Tldr: You do a lot of short cuts using shift, ctrl etc.
