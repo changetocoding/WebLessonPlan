@@ -21,7 +21,7 @@ Middle Mouse | Edit several lines
 I normally remap these to more easier to reach positions
 
 ### Other essential commands
-Save File, Copy, Paste, Cut - I normally use a key mapping software (see below) to map to F1-F4.
+Save File, Copy, Paste, Cut - I normally use a key mapping software (see below) to map to F1-F4. Or a mouse with extra buttons and cut, copy and paste programmed to it.
 
 You do alot of window switching so learn how to do that efficently. E.g. On Windows Win+M will minimise all windows and Alt+Tab cycles through windows.
 
