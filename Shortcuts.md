@@ -26,7 +26,7 @@ Save File, Copy, Paste, Cut - I normally use a key mapping software (see below) 
 You do alot of window switching so learn how to do that efficently. E.g. On Windows Win+M will minimise all windows and Alt+Tab cycles through windows.
 
 ## Keymapping software
-AutoHotKey - Windows
+AutoHotKey - Windows  
 Karabiner-Elements - Mac
 
 ## Ergonomics
