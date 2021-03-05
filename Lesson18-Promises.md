@@ -42,6 +42,8 @@ axios
   }).catch(error => console.log(error.response));
 ```
 
+-Explain homework goes through what happens behind the scenes and how to create your own Promises. Useful to know but never needed to do it myself
+
 
 # Course materials
 Additional course materials that teachers should review and can be used
