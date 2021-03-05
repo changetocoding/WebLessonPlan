@@ -16,6 +16,7 @@ Ctrl + / | Comment/uncomment line
 Alt + Shift + F | Format document
 Ctrl + W | Close Tab (works on browsers too)
 Middle Mouse | Edit several lines
+Alt + Left/Right (Ctrl + - on mac) | Go Back/Go Forward
 
 
 I normally remap these to more easier to reach positions
