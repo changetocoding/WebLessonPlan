@@ -4,9 +4,7 @@
 
 # Lesson objectives
 - Understand Promises in Javascript
-- May be better to do this lesson as student studies this course & then come back and present/explain the concept. And explain in relation to fetch api and axios api have been using:
-https://classroom.udacity.com/courses/ud898
-
+- We'll need a working understanding of this in order to do talking to servers.
 
 
 # Lesson time to deliever:
@@ -14,15 +12,16 @@ Unknown...
 
 # Teacher instruction 
 
-- Explain everytime thenthat is a promise
+- Explain everytime see then that is a promise
 - Explain how out of order resolved
 ```js
 let trees;
 fetch('http://example.com/movies.json') //  first  0sec
-.then(response => response.json())  //third  5sec
-.then(data => trees = data) // fourth  65sec
-.catch(err => console.log(err)); 
+  .then(response => response.json())  //third  5sec
+  .then(data => trees = data) // fourth  5sec
+  .catch(err => console.log(err)); // only if something goes wrong on fetch, or first then (second then maybe too. check?)
 
+// update element happens before trees is set to the data
 Element.val(trees);// second   1sec
 ```
 - Explain promise chaining
