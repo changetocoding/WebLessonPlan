@@ -197,5 +197,3 @@ axios.get("url").then((response) => {
 # Homework
 - https://classroom.udacity.com/courses/ud109/lessons/ (chapter 3)
 - Research the difference between Post and get and present back to class
-
-(Optional) Watch this for some gotcha's for Js [link](https://www.youtube.com/watch?v=hQVTIJBZook). It is from 2009 so it is a bit outdated
