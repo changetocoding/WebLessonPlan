@@ -224,14 +224,15 @@ Additional course materials that teachers should review and can be used
 
 
 # Homework
-- We've set up an api server for you. Get your ecommerce website to talk to that api to get products and post orders.  
-Url:   
+## Project (3 weeks)
+We've set up an api server for you. Get your ecommerce website to talk to that api to get products and post orders.  
+Url: https://tbhpwebdevapi.azurewebsites.net/api
 Api Documentation & playground : https://tbhpwebdevapi.azurewebsites.net/swagger/index.html  
 Example to get list of all products: https://tbhpwebdevapi.azurewebsites.net/api/Bonsai
 
 We also have '.../usingXXX' methods for you to try out the different ways - Use a combination of them (e.g. POST order using FormData, while use POST with json to add a new client)
 
-
+## Other Homework
 - Read: https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data
 - (Visual learners) Video: https://www.youtube.com/watch?v=c3qWHnJJbSY
 - Optional Read: https://en.wikipedia.org/wiki/Representational_state_transfer
