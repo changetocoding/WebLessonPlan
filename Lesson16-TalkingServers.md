@@ -1,7 +1,5 @@
 # Lesson
-Cover promises first!!!
-And aync await first!!!
-
+Cover promises first!!
 
 # Prior Homework assessment
 
@@ -21,11 +19,37 @@ Hitting the server as I like to call it.
 
 Most modern web applications talk to a server to get data. (MUST DO:) Get students to come up with a few examples (e.g yahoo mail talks to server to get emails, google to get search results).
 
-Tie back to 
+Make sure students know can use to fetch data, but also update data on server.
 
-We'll explain AJAX (the underlying technology) & difference between get and post later. For the time being just need to know how to make a request.
 
-Make sure students know can use to get data, but also update data on server.
+## AJAX/Promises
+JS is single threaded. Designed to be just minor interactivty on website. Multi threading added much later.
+
+So ppl invented AJAX/Promises to get around the problem.
+
+Imagine you want tea. You go to the kitchen you start the kettle. Now you have to wait for it to finish. In JS you would not do anything else while you wait.
+
+AJAX behaves more like a human. As soon as you start the kettle (the aysnc request). You can now do something else like check your phone. As soon as the kettle finishes it makes a noise (The interrupt). You stop what you are doing, finish making the tea (Executing the promise), then can go back to whatever you are doing.
+
+This is different from multi-threading/parrallelism. In the above example with Multi-threading you would have two people in the kitchen: One boiling the water, the other doing other stuff.
+
+Another Explaination: https://stackoverflow.com/questions/34680985/what-is-the-difference-between-asynchronous-programming-and-multithreading.
+
+## Promises Recap
+
+Promise: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises  
+A Promise is an object representing the eventual completion or failure of an asynchronous operation. AKA "I promise to do this when your (async) operation finishes"
+
+It means something you can attach a function to execute once it completes. 
+
+**We don't know when the asynchronous operation will finish. Note it may complete now, in 10 seconds, in 5 minutes.**
+
+```js
+axios.get('/api/PhoneBook/getAll')   // Your promise object
+            .then(...)  // Instructing the promise object to call the function in the brackets once it completes successfully
+            .fail(...);  // Instructing the promise object to call the function in the brackets if it fails. sometimes it is _.catch(...)
+```
+
 
 ## Server request
 Use this website to test api calls: https://jsonplaceholder.typicode.com/
@@ -33,10 +57,15 @@ Use this website to test api calls: https://jsonplaceholder.typicode.com/
 ### Fetch api
 JS built in api for doing ajax requests
 ```js
+console.log("logged first");
 fetch('/api/search/forecast?day=saturday')
-   .then(response => response.json())
-   .then(data => console.log(data));
-
+   .then(response => response.json())  // response.json() returns a promise which was a weird design choice. So have to resolve it with the .then in the next line.
+   .then(data => {
+      console.log(data)
+      console.log("logged third");
+   });
+   
+console.log("logged second");
 ```
 
 Demonstrate a get and a post request
@@ -48,7 +77,7 @@ https://classroom.udacity.com/courses/ud109/lessons/ (chapter 3)
 
 ### Axios
 https://github.com/axios/axios
-popular libray for doing ajax requests
+popular libray for doing ajax requests. Easier to use than fetch api
 
 ```js
 axios.get('/api/search/forecast?day=today')
@@ -90,9 +119,6 @@ The 3 important ones are:
 Demonstrate this in the network tab of chrome and look up what some of the codes you see there mean
 
 
-
-
-
 ### Difference between post and get request
 Get them to research it and then present back to class and discuss  
 Start off here then: https://stackoverflow.com/questions/3477333/what-is-the-difference-between-post-and-get
@@ -105,6 +131,14 @@ Get  | Post
 Data is contained in Url| Data is contained in req body
 
 Note all html urls you type into a browser e.g. www.bbc.co.uk are get requests.
+
+
+
+
+# Teacher instruction 
+
+**Pop quiz: let vs var vs const**
+
 
 
 ### Advanced: How to get data from url and use it.
