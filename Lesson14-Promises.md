@@ -55,4 +55,4 @@ Additional course materials that teachers should review and can be used
 
 
 # Homework
-- https://classroom.udacity.com/courses/ud898
+- https://classroom.udacity.com/courses/ud898 (lesson 1)
