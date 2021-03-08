@@ -1,4 +1,13 @@
+# The Back Home Project
+https://thebackhomeproject.org/
+
+
 # Web lessons
+Web development course. Currently testing out with the kind help of volunteers!
+
+
+Converting first 10 lesson to a git book for a short course in Nigeria: https://tbhp.gitbook.io/thebeta/
+
 
 # Resources
 https://www.freecodecamp.org/learn
