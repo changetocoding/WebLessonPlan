@@ -5,8 +5,10 @@ https://thebackhomeproject.org/
 # Web lessons
 Web development course. Currently testing out with the kind help of volunteers!
 
-
 Converting first 10 lesson to a git book for a short course in Nigeria: https://tbhp.gitbook.io/thebeta/
+
+- 3-4 month (intense)
+- 1 year (weekly lessons)
 
 
 # Resources
@@ -75,6 +77,7 @@ Lessons 11-20 - Advanced JS and environments
 - Forms
 - AJAX
 - Promises
+- Async/Await
 
 Lessons 21-30 -
 - Clean code - https://github.com/ryanmcdermott/clean-code-javascript. Get students to read then go through thier code and find examples where missed. From now on will be using this as a guide and to review and mark code.
@@ -84,6 +87,11 @@ Lessons 21-30 -
 - Centering elements from https://css-tricks.com/
 - Grids
 - ES6 features: Split over 2 weeks as have covered bits, but also covers classes: https://classroom.udacity.com/courses/ud356
+
+Lessons 30-40
+- React
+
+Completion!!!
 
 
 # Project ideas
