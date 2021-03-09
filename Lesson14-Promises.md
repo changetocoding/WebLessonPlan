@@ -99,7 +99,7 @@ fetch('http://example.com/movies.json')  //  first  0sec
 
 // update element happens before trees is set to the data
 console.log(trees);
-alert("B");;// second   1sec
+alert("B");// second   1sec
 ```
 
 # Chaining promises
