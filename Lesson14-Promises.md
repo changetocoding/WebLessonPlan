@@ -69,15 +69,37 @@ The _.then()_ will be executed once data has been fetched from the server
 
 ### Async means code probably will get executed out of order
 Imagine the network request takes 5 seconds. In that case:
+
+**Class Excerise: Ask which order this code will be executed in**
+```js
+// We want to fetch some data from the server. And update some code. What order will this get executed in?
+let trees;
+fetch('http://example.com/movies.json') 
+  .then(response => response.json())  
+  .then(data => {
+     trees = data;
+     alert("A");
+  }) 
+  .catch(err => alert("Err")); 
+
+console.log(trees);
+alert("B");
+```
+
+**Answer**
 ```js
 let trees;
-fetch('http://example.com/movies.json') //  first  0sec
+fetch('http://example.com/movies.json')  //  first  0sec
   .then(response => response.json())  //third  5sec
-  .then(data => trees = data) // fourth  5sec
-  .catch(err => console.log(err)); // only if something goes wrong on fetch, or first then (second then maybe too. check?)
+  .then(data => {
+     trees = data;
+     alert("A");
+  }) // fourth  5sec
+  .catch(err =>  alert("Err")); // only if something goes wrong on fetch, or first then (second then maybe too. check?)
 
 // update element happens before trees is set to the data
-Element.val(trees);// second   1sec
+console.log(trees);
+alert("B");;// second   1sec
 ```
 
 # Chaining promises
