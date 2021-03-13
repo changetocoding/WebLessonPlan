@@ -57,7 +57,7 @@ function getDataFromAPI()
 ## Converting from .then() to async/await
 Async/await is a replacement for using callbacks and .then() on promises. Some reasons why are the code is cleaner and easier to understand as looks more in a step by step fashion.
 
-Therefore any time you are using a .then() you can rewrite it as an async function with an await. Similarly whenever you see and async function, you can replace the _await_ with a .then()
+Therefore any time you are using a .then() you can rewrite it as an async function with an _await_. Similarly whenever you see and async function, you can replace the _await_ with a .then()
 
 
 ### Converting functions to async
