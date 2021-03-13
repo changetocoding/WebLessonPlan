@@ -118,20 +118,8 @@ async function logAnswerAsync(){
 ```
 
 
-Finally when the function has a .catch() this is how to rewrite
-```js
-function getAnswer(id){
-   axios.get(`/api/answer/${id}`)
-    .then(function(data){
-      // do something with data
-    })
-    .catch(function(err){
-      // we just log the error here, but normally should properly handle the error
-      console.log(err)
-    })
-}
-```
-We can rewrite as an async function using try/catch
+### Async handling errors.
+We handle errors and failed promises in async using a try/catch 
 ```js
 async function getAnswer(id){
   try {
@@ -144,6 +132,21 @@ async function getAnswer(id){
   }
 }
 ```
+
+If we were to rewrite it using .then() and .catch() this is how it would look:
+```js
+function getAnswer(id){
+   axios.get(`/api/answer/${id}`)
+    .then(function(data){
+      // do something with data
+    })
+    .catch(function(err){
+      // we just log the error here, but normally should properly handle the error
+      console.log(err)
+    })
+}
+```
+
 
 # Recommendations
 - Additional notes
