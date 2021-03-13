@@ -37,7 +37,7 @@ const returnNumber = async () => {
 
 ## Await
 
-Await can be used inside of an async function to wait for a promise to resolve before performing an action once the promise has resolved. The key bit about the Await keyword is that it can only be used inside of an async function
+Await can be used inside of an async function to wait for a *promise* to resolve before performing an action once the promise has resolved. The key bit about the Await keyword is that it can only be used inside of an async function
 
 ```js
 async function getDataFromAPI()
@@ -54,7 +54,13 @@ function getDataFromAPI()
 };
 ```
 
-## Converting from .then to aync
+## Converting from .then() to async/await
+Async/await is a replacement for using callbacks and .then() on promises. Some reasons why are the code is cleaner and easier to understand as looks more in a step by step fashion.
+
+Therefore any time you are using a .then() you can rewrite it as an async function with an await. Similarly whenever you see and async function, you can replace the _await_ with a .then()
+
+
+### Converting functions to async
 We have this function using .then() and a callback. We can rewrite as an async functions
 ```js
 // callback is the function to call on success
