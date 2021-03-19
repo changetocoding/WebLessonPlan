@@ -89,18 +89,23 @@ Lessons 21-30 -
 - ES6 features: Split over 2 weeks as have covered bits, but also covers classes: https://classroom.udacity.com/courses/ud356
 
 Lessons 30-40
+- ES6 & import statement es5
 - React
 - npm for libraries
-- import statement es5
 - Unit testing in js
 - Teach react hooks (functional componenets rather than Class based componenets)
 - State management - Redux - beast. Teaching Context would be alot more simpler
-- Syntax podcasts
 - SSR? Server side rendering - No clue what this is
+- 
 
 Resources:
 https://reactjs.org/tutorial/tutorial.html
 https://reactjs.org/docs/hooks-intro.html
+https://www.freecodecamp.org/learn/front-end-libraries/#react
+- Syntax podcasts
+
+
+
 
 Course Feedback Volunteers
 - Micheal
