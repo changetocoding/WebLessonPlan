@@ -90,6 +90,22 @@ Lessons 21-30 -
 
 Lessons 30-40
 - React
+- npm for libraries
+- import statement es5
+- Unit testing in js
+- Teach react hooks (functional componenets rather than Class based componenets)
+- State management - Redux - beast. Teaching Context would be alot more simpler
+- Syntax podcasts
+- SSR? Server side rendering - No clue what this is
+
+Resources:
+https://reactjs.org/tutorial/tutorial.html
+https://reactjs.org/docs/hooks-intro.html
+
+Course Feedback Volunteers
+- Micheal
+- Claudius
+
 
 Completion!!!
 
