@@ -4,6 +4,17 @@
 - Time saving and very important
 - But be careful of 'emacs pinky' Would recommend getting an ergonomic keyboard after programing for >3 years
 
+## VS Code extensions
+- Bracket Pair Coloroizer 2
+- Debugger for chreom
+- Liveserver
+- Git history
+- Git lense
+- Prettier
+- Project Manager
+- Es Lint
+- Html Snippets
+
 
 ## Intro level:
 ### VS Code shortcuts should know:
