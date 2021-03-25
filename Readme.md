@@ -101,7 +101,14 @@ Lessons 30-40
 - Teach react hooks (functional componenets rather than Class based componenets)
 - State management - Redux - beast. Teaching Context would be alot more simpler
 - SSR? Server side rendering - No clue what this is
-- 
+
+Regarding React courses, I'd suggest (Jemima)
+- a break down of how React works compared to JavaScript
+- using class vs functional components
+- how changes to the DOM is made with re-rendering
+- React lifecycle methods (e.g. componentDidMount vs useEffect)
+- creating a web application with React such as a to-do list
+
 
 Resources:
 https://reactjs.org/tutorial/tutorial.html
