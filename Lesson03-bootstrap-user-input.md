@@ -1,4 +1,7 @@
-# Lesson
+# Lesson 
+
+# Obsolete
+Check out https://tbhp.gitbook.io/thebeta/lesson-plans/3.-bootstrap-and-user-input for latest version
 
 # Lesson objectives
 - Input fields: input, button, radio button
