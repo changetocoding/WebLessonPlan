@@ -1,5 +1,8 @@
 # Lesson
 
+# Obsolete
+Checkout https://tbhp.gitbook.io/thebeta/lesson-plans/4.-javascript for latest version
+
 # Lesson objectives
 - History of JS.
 - Variables and data types in js
