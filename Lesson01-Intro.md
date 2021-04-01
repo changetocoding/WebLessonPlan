@@ -1,5 +1,8 @@
 # Lesson
 
+# Obsolete
+Check out https://tbhp.gitbook.io/thebeta/lesson-plans/introduction for latest version
+
 # Lesson objectives
 - Understand how internet works and browers work
 - First experience of making a web page
