@@ -27,6 +27,7 @@ https://github.com/ryanmcdermott/clean-code-javascript
 https://github.com/kamranahmedse/developer-roadmap  
 https://teachertraining.codeyourfuture.io/ - With permission from Richard Ng  
 https://github.com/microsoft/Web-Dev-For-Beginners  
+https://web.dev/learn/css/  
 
 # General teacher instruction:
 - Github - one repo for all course content
