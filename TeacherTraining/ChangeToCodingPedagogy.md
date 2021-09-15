@@ -6,6 +6,7 @@
 - We believe **the ablity to code** is one of the **best tools** for an individual **to effect social change** for themselves. Therefore we teach coding.
 - We believe **everyone can learn to code**
 - We believe the most important skill for any coder is **the ability to self learn**. Therefore we focus on project based tasks, self-learning, and collaborative based tasks
+- We believe programming is creative subject. Therefore ureativity and the ability to think outside the box are valued.
 
 
 ## Lessons
