@@ -6,6 +6,7 @@
 - Dates: 1st oct - 20th dec
 - 2 Groups/classes each with 10 students
 - Timetable
+
 | Timing | Activity |
 | :---: | :---: | 
 | 9am     | Group 1 Session 1 |
@@ -16,6 +17,8 @@
 | 2.15pm  | Break |
 | 2.45pm  | Group 2 Session 2 |
 | 4pm     | Close |
+
+
 - Course schedule
 Week:
 Week 1 wordpress
