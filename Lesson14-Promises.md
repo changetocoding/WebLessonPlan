@@ -138,7 +138,7 @@ Additional course materials that teachers should review and can be used
 - https://classroom.udacity.com/courses/ud898 (lesson 1)
 
 
-Additional help for setting up exoplanet explorer 
+Additional help for setting up exoplanet explorer (from the udacity lesson)
 
 1. Open up git Bash and clone the repo using git clone https://github.com/udacity/exoplanet-explorer
 2. Go to the folder using cd exoplanet-explorer and install gulp using npm install -g gulp bower
