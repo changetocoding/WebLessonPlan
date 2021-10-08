@@ -1,6 +1,11 @@
 https://github.com/changetocoding/WebLessonPlan.git
 
-Clone
+git clone
+git add
+git commit
+git push
+
+git pull
 
 
-Commit
+You must do a pull before you do a push
