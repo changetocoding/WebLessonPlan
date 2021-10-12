@@ -9,3 +9,5 @@ git pull
 
 
 You must do a pull before you do a push
+
+I've learnt timeline
