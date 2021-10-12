@@ -9,7 +9,7 @@
 
 
 # Lesson time to deliever:
-Unknown...
+60 minutes
 
 # Teacher instruction 
 
