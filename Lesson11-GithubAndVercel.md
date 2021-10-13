@@ -41,7 +41,7 @@ Important points:
 - Commit code to source control using command line
 - Commit code to source control using VS Code
 - Deploy website online
-
+- Collaborating as a team
 
 # Lesson time to deliever:
 Unknown...
@@ -56,6 +56,7 @@ Additional course materials that can be used
 
 # Recommendations
 - Additional notes
+- Check out Daniels git v2 lesson plan
 
 
 # Homework
