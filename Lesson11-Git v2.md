@@ -3,7 +3,7 @@ Using Git Bash and Using Git on VSC
 # Prior Homework assessment
 
 # Lesson objectives
-- Understand ...
+- Understand Source control, it's importance when working on group projects
 
 
 # Lesson time to deliever:
@@ -13,37 +13,36 @@ Unknown...
 
 
 # Course materials
-GIT BASH:
+### GIT BASH:
 
-CLONE
-git clone repositorylink.git
-
+### CLONE
+git clone repositorylink.git  
 Eg: git clone https://github.com/changetocoding/WebLessonPlan.git
 
-Righ click within the folder you want to clone into and select "Git Bash Here"
+Right click within the folder you want to clone into and select "Git Bash Here"
 
 After cloning, navigate into the folder to perform operations by typing cd clonedrepositoryfoldername
 
-TO UPDATE/UPLOAD A FILE TO THE REPOSITORY
+### TO UPDATE/UPLOAD A FILE TO THE REPOSITORY
 
-git add "filename" (this keeps track of the file to be uploaded or updated)
+git add "filename" (this instructs git to start keeping track of the file to be uploaded or updated)
 
 git commit -m "filename" (this commits the file to be uploaded or updated)
 
 git push
 
 
-(To add all files: git add .)
+(To add all files!!!: git add .)
 
 (To close out of comment window: :wq)
 
 
-TO GET UP-TO-DATE FILES FROM THE REPOSITORY
+### TO GET UP-TO-DATE FILES FROM THE REPOSITORY
 
 git pull
 
 
-GIT & VS CODE
+## GIT & VS CODE
 
 HOW TO PUSH A PROJECT FROM VSCODE TO GITHUB (TO LINK A REPOSITORY WITH VSCODE)
 - Create a new repository for your project
