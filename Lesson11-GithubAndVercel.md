@@ -41,6 +41,7 @@ Important points:
 - Commit code to source control using command line
 - Commit code to source control using VS Code
 - Deploy website online
+- Work as a team using source control to collaborate
 
 
 # Lesson time to deliever:
