@@ -1,6 +1,9 @@
 # The Back Home Project
 https://thebackhomeproject.org/
 
+# Markdown guide
+https://guides.github.com/features/mastering-markdown/
+
 # Please also refer to
 https://github.com/changetocoding/Web-Development-Course
 
