@@ -54,6 +54,32 @@ function getDataFromAPI()
 };
 ```
 
+### David's lesson
+```js
+// Equivalent to:
+async function getData()
+{
+  let req = await fetch('https://jsonplaceholder.typicode.com/todos/1');
+  let res = await req.json();
+
+  let req2 = await fetch('https://jsonplaceholder.typicode.com/todos/2');
+  let res2 = await req2.json();
+  
+  console.log(res2)
+}
+
+// Equivalent to:
+fetch('https://jsonplaceholder.typicode.com/todos/1')
+  .then(response => response.json())
+  .then(json => {
+    console.log(json)
+
+    fetch('https://jsonplaceholder.typicode.com/todos/2')
+        .then(req2 => req2.json())
+        .then(console.log);
+  });
+```
+
 ## Converting from .then() to async/await
 Async/await is a replacement for using callbacks and .then() on promises. Some reasons why are the code is cleaner and easier to understand as looks more in a step by step fashion.
 
