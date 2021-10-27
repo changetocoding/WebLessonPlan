@@ -13,3 +13,15 @@ Link: https://marvelbooks109450413.wordpress.com/
 Link: https://booktique795824427.wordpress.com/
 ### Afternoon Session Group 3
 Link: https://chiboy999.wordpress.com/
+
+## WordPress Course Website
+To be worked on soon...
+
+## Calculator JavaScript Project
+To be worked on soon...
+
+## Admission Checker JavaScript App
+To be worked on soon...
+## Age group determinant App
+To be worked on soon...
+## Validating form using JavaScript
