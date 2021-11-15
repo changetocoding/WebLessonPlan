@@ -64,7 +64,7 @@ We could instead find an element and add it as a child to that
 ```js
 document.getElementById('generate-here').appendChild(newDiv);
 ```
-Or use innerHTML (Not as recommende)
+Or use innerHTML (Not as recommended)
 ```js
 let generateHere = document.getElementById("generate-here");
 generateHere.innerHTML = '<div class="someclass"><a href="www.example.com"><p>some text</p></a></div>';
