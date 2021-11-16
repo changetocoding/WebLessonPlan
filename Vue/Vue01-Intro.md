@@ -35,6 +35,7 @@ cd my-project
 vue add router
 ```
 Select 'Y' for the history mode 
+
 5. Run your project. Make sure you are in the 'my-project' directory
 ```
 npm run serve
