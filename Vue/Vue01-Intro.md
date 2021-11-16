@@ -29,32 +29,19 @@ npm install -g @vue/cli
 ```
 vue create my-project
 ```
-4. Run your project 
+4. Add vue router
 ```
 cd my-project
+vue add router
+```
+Select 'Y' for the history mode 
+5. Run your project. Make sure you are in the 'my-project' directory
+```
 npm run serve
 ```
-5. Open http://localhost:8080/ in your browser. This will also live update as you save code files
-6. (Obviously) Check into your source control using git
-Use this gitignore:
-```
-.DS_Store
-node_modules
-/dist
+6. Open http://localhost:8080/ in your browser. This will also live update as you save code files
+7. (Obviously) Check into your source control using git. Use the gitignore here: https://github.com/changetocoding/VueDemo
 
-# local env files
-.env.local
-.env.*.local
-
-# Log files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-# Editor directories and files
-.vscode
-```
 
 ## Go through the vue tutorial
 Start here: https://vuejs.org/v2/guide/#Declarative-Rendering
