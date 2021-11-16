@@ -41,7 +41,7 @@ Select 'Y' for the history mode
 npm run serve
 ```
 6. Open http://localhost:8080/ in your browser. This will also live update as you save code files
-7. (Obviously) Check into your source control using git. Use the gitignore here: https://github.com/changetocoding/VueDemo
+7. (Obviously) Check into your source control using git.
 
 
 ## Go through the vue tutorial
