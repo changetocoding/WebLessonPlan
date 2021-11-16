@@ -34,7 +34,7 @@ vue create my-project
 cd my-project
 npm run serve
 ```
-5. acd
+5. Open http://localhost:8080/ in your browser. This will also live update as you save code files
 6. (Obviously) Check into your source control using git
 Use this gitignore:
 ```
@@ -56,16 +56,35 @@ pnpm-debug.log*
 .vscode
 ```
 
+## Go through the vue tutorial
+Start here: https://vuejs.org/v2/guide/#Declarative-Rendering
 
+## Vue single file component
+https://vuejs.org/v2/guide/single-file-components.html
 
+Hmtl, js and styling for a component all in one place
 
-
-
-```js
-var app = new Vue({
-  el: '#app',
-  data: {
-    message: 'Hello Vue!'
-  }
-})
 ```
+<template>
+  <p>{{ greeting }} World!</p>
+</template>
+
+<script>
+export default {
+  props: {
+    greeting: String
+  }
+}
+</script>
+
+<style scoped>
+p {
+  font-size: 2em;
+  text-align: center;
+}
+</style>
+```
+
+
+
+
