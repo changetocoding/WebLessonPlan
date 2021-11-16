@@ -62,7 +62,7 @@ Get to create product details page using for loop
   }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 
 </style>
 ```
