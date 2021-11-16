@@ -59,6 +59,7 @@ namespace Lesson16Webserver
 
             app.UseHttpsRedirection();
 
+            app.UseStaticFiles();
             app.UseRouting();
 
 

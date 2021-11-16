@@ -5,7 +5,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\img\img\**" />
+    <Content Remove="wwwroot\img\img\**" />
+    <EmbeddedResource Remove="wwwroot\img\img\**" />
+    <None Remove="wwwroot\img\img\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Images\" />
   </ItemGroup>
 
 

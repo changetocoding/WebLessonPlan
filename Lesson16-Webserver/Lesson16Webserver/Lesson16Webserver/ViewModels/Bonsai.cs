@@ -46,7 +46,7 @@ namespace Lesson16Webserver.ViewModels
                 },
                 new Bonsai(){
                     Id = 3,
-                    ProductTitle= "Chinese Juniper Itagawa",
+                    ProductTitle= "35-38cm Itagawa",
                     ProductPrice= 3250.00m,
                     ProductDescription= "Beautiful Chinese Itiogawa Juniper, approximately 35-38cm tall and planted in an oval ceramic bonsai pot.",
                     ProductImage= "./img/OutdoorBonsai/OutdoorBonsai_3.jpg",
@@ -55,18 +55,18 @@ namespace Lesson16Webserver.ViewModels
                 },
                 new Bonsai(){
                     Id = 4,
-                    ProductTitle= "Chinese Juniper Itagawa",
+                    ProductTitle= "Brussels Bonsai",
                     ProductPrice= 195.00m,
-                    ProductDescription= "Lovely Chinese Juniper Itiogawa Bonsai Tree in a ceramic bonsai pot, approximately 27-29cm tall.",
+                    ProductDescription= "Lovely Brussels Bonsai Tree in a ceramic bonsai pot, approximately 27-29cm tall.",
                     ProductImage= "./img/OutdoorBonsai/OutdoorBonsai_4.jpg",
 
                     CheckoutOptions= new List<string>() {"Tools", "Soil", "Care"}
                 },
                 new Bonsai(){
                     Id = 5,
-                    ProductTitle= "Chinese Juniper Itagawa",
+                    ProductTitle= "Satsuki Azalea",
                     ProductPrice= 595.00m,
-                    ProductDescription= "Gorgeous Chinese Juniper Itoigawa Bonsai Tree, approximately 28-33cm tall and planted in an unglazed oval ceramic bonsai pot.",
+                    ProductDescription= "Gorgeous Satsuki Azalea Bonsai Tree, approximately 28-33cm tall and planted in an unglazed oval ceramic bonsai pot.",
                     ProductImage= "./img/OutdoorBonsai/OutdoorBonsai_5.jpg",
 
                     CheckoutOptions= new List<string>() {"Tools", "Soil", "Care"}
