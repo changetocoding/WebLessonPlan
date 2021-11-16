@@ -49,6 +49,8 @@ Start here: https://vuejs.org/v2/guide/#Declarative-Rendering
 
 ## Break 1: Stop after for loops
 Get to create product details page using for loop
+
+ProductDetails.vue
 ```
 <template>
   <div>
@@ -65,6 +67,22 @@ Get to create product details page using for loop
 <style scoped>
 
 </style>
+```
+in router/index.js register it as a route with a path
+```
+...
+import About from '../views/About.vue'
+import ProductDetails from '../views/ProductDetails.vue'
+
+...
+
+const routes = [
+  ...
+  {
+    path: '/productDetails',
+    component: ProductDetails
+  }
+]
 ```
 
 
