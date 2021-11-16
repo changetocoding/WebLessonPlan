@@ -42,12 +42,19 @@ npm run serve
 ```
 6. Open http://localhost:8080/ in your browser. This will also live update as you save code files
 7. (Obviously) Check into your source control using git.
-
+8. Install the vue devtools plugin: https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd
+9. 
 
 ## Go through the vue tutorial
 Start here: https://vuejs.org/v2/guide/#Declarative-Rendering
 
-## Break 1: Stop after for loops
+## Break 1: Stop after 
+- Template syntax
+- for loops
+- (maybe) Able to create new component and register it
+- Know difference between data, props and computed
+
+
 Get to create product details page using for loop
 
 ProductDetails.vue
@@ -111,6 +118,13 @@ p {
 }
 </style>
 ```
+
+
+# Bonsai tasks:
+1. Create a products list page using v-for directive
+2. Create a products Details page using router to pass the id as a prop to the component
+3. Refactor products list page to use a component
+4. Implement add to basket button
 
 
 
