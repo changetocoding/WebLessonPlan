@@ -47,6 +47,27 @@ npm run serve
 ## Go through the vue tutorial
 Start here: https://vuejs.org/v2/guide/#Declarative-Rendering
 
+## Break 1: Stop after for loops
+Get to create product details page using for loop
+```
+<template>
+  <div>
+
+  </div>
+</template>
+
+<script>
+  export default {
+    
+  }
+</script>
+
+<style lang="scss" scoped>
+
+</style>
+```
+
+
 ## Vue single file component
 https://vuejs.org/v2/guide/single-file-components.html
 
