@@ -42,7 +42,7 @@ npm run serve
 ```
 6. Open http://localhost:8080/ in your browser. This will also live update as you save code files
 7. (Obviously) Check into your source control using git.
-8. Install the vue devtools plugin: https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd
+8. Install the vue devtools plugin: https://chrome.google.com/webstore/detail/vuejs-devtools
 9. 
 
 ## Go through the vue tutorial
