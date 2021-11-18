@@ -2,7 +2,7 @@
 https://guides.github.com/features/mastering-markdown/
 
 ### Vue.js website
-https://vuejs.org/
+https://vuejs.org/  
 v2 guide: https://vuejs.org/v2/guide/
 
 
