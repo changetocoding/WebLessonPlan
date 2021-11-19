@@ -127,5 +127,61 @@ p {
 4. Implement add to basket button
 
 
+## Event handling
+https://vuejs.org/v2/guide/events.html
+
+In vue js communication downwards. What if we want to reverse direction? Events
+
+### DOM Events
+Vue supports DOM events
+```html
+<button v-on:click="onAddOne">Add 1</button>
+<p>The button above has been clicked {{ counter }} times.</p>
+```
+```js
+export default {
+  data() {
+    return {
+      counter: 0
+    }
+  },
+  methods: {
+    onAddOne() {
+      this.counter = this.counter + 1;
+      alert('Count ' + this.counter + '!')
+    }
+  },
+}
+```
+
+Shorthand for events is '@'
+```html
+<button @click="onAddOne">Add 1</button>
+<p>The button above has been clicked {{ counter }} times.</p>
+```
+
+### Your custom events
+In vue you can create your own events
+https://vuejs.org/v2/guide/components.html#Listening-to-Child-Components-Events
+
+In Child either
+```js
+this.$emit('myEvent')
+```
+Or 
+```html
+<button v-on:click="$emit('myEvent')">
+  Enlarge text
+</button>
+```
+
+In Parent
+```
+<my-component @:myEvent="doSomething"></my-component>
+```
+
+You can also emit a value with the event
+
+
 
 
