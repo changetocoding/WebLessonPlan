@@ -7,7 +7,8 @@ Learners:
 
 3. Concrete practice: actively practice/review/teach what learned
 4. Conclusions: summarise, evaluate, celebrate, create action plans
-In my training who is doing most of the talking
+
+Question: *In your training who is doing most of the talking*
 
 # Brain friendly training
 
