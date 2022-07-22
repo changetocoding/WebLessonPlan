@@ -1,4 +1,4 @@
-***Summary***
+#Summary
 Learners:
 
 1. Connections: learners make connections with what already know, what want to learn, others
@@ -9,7 +9,7 @@ Learners:
 4. Conclusions: summarise, evaluate, celebrate, create action plans
 In my training who is doing most of the talking
 
-***Brain friendly training***
+#Brain friendly training
 
 - Positive (&safe) Emotionally environment
 - Timing (10 mins) & movement (standup)
@@ -21,14 +21,14 @@ In my training who is doing most of the talking
 - Low risk activities (talk to neighbour, dot vote) to high risk.
 - DON'T be boring: anti learning
 
-***4 Cs ***
+#4 Cs
 
 - Begin with end: what observable behaviours do you want learned
 - Teach only need to knows
 - Play with plan and work out flow
 - Hand over as much teaching as can
 
-***Connections***
+#Connections
 
 Learners to other learners, the topic, their own goals, Learning outcomes (learners talk about L. Out.)
 
@@ -37,7 +37,7 @@ Intros, ground rules
 
 *Web hunt*, *Dot voting (inst. On slide/wall), where do you stand, **post it, think it then stick it, turn and talk, wall charts, table talk*
 
-***Concepts***
+#Concepts
 
 - Teach only need to know. If I had 1/2 time what would I cut out
 - Graphic organisers
@@ -47,7 +47,7 @@ Intros, ground rules
 
 *Concept maps*,  *rapid response*: *come up with 5 most important facts. (2 mins)*, *beat the clock, bend breathe stretch*, *1 person/table experts (summarise and present to room), Concept centers*
 
-***Concrete practice***
+#Concrete practice
 
 - Individual accountability
 - Collaborative
@@ -58,7 +58,7 @@ Intros, ground rules
 
 *Learner games: card games (myth or fact), coop jeopardy*
 
-***Conclusions***
+#Conclusions
 
 - Learners summarise
 - Learners evaluate: e.g discuss how felt before compared to now
