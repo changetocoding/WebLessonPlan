@@ -130,7 +130,7 @@ https://www.freecodecamp.org/learn/front-end-libraries/#react
 
 
 # Volunteer guide:
-https://tbhp.gitbook.io/web-course/code-review/how-to-review-an-entire-repo-on-github
+https://tbhp.gitbook.io/web-course/
 
 Course Feedback Volunteers
 - Micheal
