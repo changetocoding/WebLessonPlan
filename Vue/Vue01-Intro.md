@@ -2,7 +2,7 @@
 https://guides.github.com/features/mastering-markdown/
 
 ### Vue.js website
-https://vuejs.org/
+https://vuejs.org/  
 v2 guide: https://vuejs.org/v2/guide/
 
 
@@ -42,7 +42,7 @@ npm run serve
 ```
 6. Open http://localhost:8080/ in your browser. This will also live update as you save code files
 7. (Obviously) Check into your source control using git.
-8. Install the vue devtools plugin: https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd
+8. Install the vue devtools plugin: https://chrome.google.com/webstore/detail/vuejs-devtools
 9. 
 
 ## Go through the vue tutorial
@@ -125,6 +125,62 @@ p {
 2. Create a products Details page using router to pass the id as a prop to the component
 3. Refactor products list page to use a component
 4. Implement add to basket button
+
+
+## Event handling
+https://vuejs.org/v2/guide/events.html
+
+In vue js communication downwards. What if we want to reverse direction? Events
+
+### DOM Events
+Vue supports DOM events
+```html
+<button v-on:click="onAddOne">Add 1</button>
+<p>The button above has been clicked {{ counter }} times.</p>
+```
+```js
+export default {
+  data() {
+    return {
+      counter: 0
+    }
+  },
+  methods: {
+    onAddOne() {
+      this.counter = this.counter + 1;
+      alert('Count ' + this.counter + '!')
+    }
+  },
+}
+```
+
+Shorthand for events is '@'
+```html
+<button @click="onAddOne">Add 1</button>
+<p>The button above has been clicked {{ counter }} times.</p>
+```
+
+### Your custom events
+In vue you can create your own events
+https://vuejs.org/v2/guide/components.html#Listening-to-Child-Components-Events
+
+In Child either
+```js
+this.$emit('myEvent')
+```
+Or 
+```html
+<button v-on:click="$emit('myEvent')">
+  Enlarge text
+</button>
+```
+
+In Parent
+```
+<my-component @:myEvent="doSomething"></my-component>
+```
+
+You can also emit a value with the event
 
 
 

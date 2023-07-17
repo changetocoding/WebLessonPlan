@@ -8,10 +8,11 @@ https://guides.github.com/features/mastering-markdown/
 https://github.com/changetocoding/Web-Development-Course
 
 
-# White board (To try)
-https://miro.com  
-draw.io
+# White board
+https://r7.whiteboardfox.com/
 
+# Git install
+https://scribe.rip/devops-with-valentine/2021-how-to-install-git-on-windows-10-step-by-step-guide-1c9db500e734
 
 # Web lessons
 Web development course. Currently testing out with the kind help of volunteers!
@@ -23,6 +24,10 @@ Converting first 10 lesson to a git book for a short course in Nigeria: https://
 
 
 # Resources
+### Intro Js course
+Students self learn through UDACITY course: 
+
+### Other
 https://www.freecodecamp.org/learn
 https://javascript.info/  
 https://dev.to/   
@@ -124,7 +129,8 @@ https://www.freecodecamp.org/learn/front-end-libraries/#react
 - Syntax podcasts
 
 
-
+# Volunteer guide:
+https://tbhp.gitbook.io/web-course/
 
 Course Feedback Volunteers
 - Micheal

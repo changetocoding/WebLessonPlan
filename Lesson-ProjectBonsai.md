@@ -1,15 +1,31 @@
 # Bonsai Project
 
+## Task
+Your task is to create an e-commerce website using js, html and css for buying bonsai trees.
+
+Your website must have:
+- A Landing page
+- A Product list page listing all the different products
+- A Product details page listing 
+- (Optional) A product cart and abilty to see all products ordered in the current session
+
+We've set up an api server for you. Get your ecommerce website to talk to that api to get the products and their details. And post orders to it.
+
+- Url: https://tbhpwebdevapi.azurewebsites.net/api 
+- Api Documentation & playground : https://tbhpwebdevapi.azurewebsites.net/swagger/index.html
+- Example. To get list of all products: https://tbhpwebdevapi.azurewebsites.net/api/Bonsai
+- Images are located under '/img' Example: 'https://tbhpwebdevapi.azurewebsites.net/img/OutdoorBonsai/OutdoorBonsai_8.jpg'
+
+
 
 ## Nice Notes:
+https://tbhp.gitbook.io/web-course/examples/bonsai-project
 
 
-
-
-# Video on populating items and using the URL to compose things
+## Video on populating items and using the URL to compose things
 This video example covers:
 
-## Adding data to url parameter for page 
+### Adding data to url parameter for page 
 ```
 http://localhost:8099/test/second?name=Tom&age=10
 ```
