@@ -20,13 +20,13 @@ namespace Lesson16Webserver.ViewModels
         {
             return new List<CheckoutOption>()
             {
-                new CheckoutOption(1, "All In One Basic Bonsai Tool Kit (+£95.00)", 95, "Tool"),
-                new CheckoutOption(2, "Carbon Steel Japanese Bonsai Tool kit (+£195.00)", 195, "Tool"),
-                new CheckoutOption(3, "Stainless Steel Bonsai Tool kit (+295.00)", 295, "Tool"),
-                new CheckoutOption(4, "2L (+£4.00)", 4, "Soil"),
-                new CheckoutOption(5, "5L (+£8.00)", 8, "Soil"),
-                new CheckoutOption(6, "10L (+£14.00)", 14, "Soil"),
-                new CheckoutOption(7, "Yes (+£13.00)", 13, "Care"),
+                new CheckoutOption(1, "All In One Basic Bonsai Tool Kit (+$95.00)", 95, "Tools"),
+                new CheckoutOption(2, "Carbon Steel Japanese Bonsai Tool kit (+$195.00)", 195, "Tools"),
+                new CheckoutOption(3, "Stainless Steel Bonsai Tool kit (+295.00)", 295, "Tools"),
+                new CheckoutOption(4, "2L (+$4.00)", 4, "Soil"),
+                new CheckoutOption(5, "5L (+$8.00)", 8, "Soil"),
+                new CheckoutOption(6, "10L (+$14.00)", 14, "Soil"),
+                new CheckoutOption(7, "Care (+$13.00)", 13, "Care"),
             };
 
         }

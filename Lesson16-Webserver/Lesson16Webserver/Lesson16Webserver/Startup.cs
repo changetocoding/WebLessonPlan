@@ -4,6 +4,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
+using System.IO;
+using System.Reflection;
+using System;
 
 namespace Lesson16Webserver
 {
@@ -25,6 +28,11 @@ namespace Lesson16Webserver
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
+                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                // pick comments from classes, include controller comments: another tip from StackOverflow
+                c.IncludeXmlComments(xmlPath, includeControllerXmlComments: true);
+
             });
 
             services.AddCors(options =>
@@ -41,6 +49,12 @@ namespace Lesson16Webserver
             services.AddSingleton<InMemStore<Message>>(x => new InMemStore<Message>(Message.TestData()));
             services.AddSingleton<InMemStore<Client>>(x => new InMemStore<Client>(Client.Init()));
             services.AddSingleton<InMemStore<Bonsai>>(x => new InMemStore<Bonsai>(Bonsai.Init()));
+
+            services.AddSingleton<InMemStore<BonsaiClient>>(x => new InMemStore<BonsaiClient>(BonsaiClient.Init()));
+            services.AddSingleton<InMemStore<BonsaiOrderDetails>>(x => new InMemStore<BonsaiOrderDetails>(BonsaiOrderDetails.Init()));
+
+
+
             services.AddSingleton<InMemStore<CheckoutOption>>(x => new InMemStore<CheckoutOption>(CheckoutOption.Init()));
             services.AddSingleton<InMemStore<SimpleOrder>>(x => new InMemStore<SimpleOrder>(SimpleOrder.Init()));
         }
